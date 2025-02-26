@@ -1,0 +1,519 @@
+[   {
+    "name": "TI Power Supply",
+    "details": "TI prodesk elitedesk 450 g2 .",
+    "image": "https://i.ibb.co/nNYG7SLS/IMG-20250127-150337-435.jpg",
+    "category": "Power Supply",
+    "price": 550
+    },
+    {
+        "name": "HP ProDesk Power Supply",
+        "details": "Hp prodesk elitedesk 450 g2 .",
+        "image": "https://cdn.bdstall.com/product-image/giant_163101.jpg",
+        "category": "Power Supply",
+        "price": 2550
+    },
+    {
+        "name": "Intel Core i7 7th Generation Processor ",
+        "details": "The Intel Core i7-7700 Seven Generation Processor provides a Base Frequency of 3.60 GHz and 8 MB Intel Smart & good Cache. it's Four cores and Eight threads Supported.",
+        "image": "https://www.gvsbd.com/wp-content/uploads/2021/12/Intel-Core-i7-8700K-Processor.jpeg.webp",
+        "category": "processor",
+        "price": 9500
+    },
+    {
+        "name": "AMD Ryzen 5 7500F Processor",
+        "details": "The AMD Ryzen 5 7500F Processor is built on the advanced Zen 4 architecture with the former codename Raphael AM5.",
+        "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-5-7600/ryzen-5-7600-01-500x500.webp",
+        "category": "processor",
+        "price": 2550
+    },
+    {
+        "name": "OVO X10 ARGB Mid-Tower Gaming Casing white",
+        "details": "Mid-Tower Micro ATX",
+        "image": "https://www.ultratech.com.bd/image/cache/catalog/OVO/ovo-x10-argb-mid-tower-gaming-casing-white-2-500x500.jpg.webp",
+        "category": "Casing",
+        "price": 3500
+    },
+    {
+        "name": "A4Tech KRS-82 Keyboard ",
+        "details": "wired Keyboard ",
+        "image": "https://i.ibb.co/LzfqCWHb/a4tech-kr-83-black-wired-usb-comfortkey-fn-keyboard.webp",
+        "category": "keyboard",
+        "price": 999
+    },
+    { 
+        "name": "HP 2.4g Wireless Optical Mouse",
+        "details": "Wireless Optical Mouse",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStprIjNc5iNKA-kfCddp9tbKmM7_KxJgBisg&s",
+        "category": "gaming",
+        "price": 380
+    },
+    {
+        "name": "9V 2A Power Supply Adaptor",
+        "details": "Widely used in WiFi Router, LED Display, Communications, etc.",
+        "image": "https://m.media-amazon.com/images/I/51WZMOPhqfL._AC_UF894,1000_QL80_.jpg",
+        "category": "keyboard",
+        "price": 250
+    },
+    {
+        "name": "Gigabyte GA-B150M-D3H",
+        "details": "Support for Intel® Core™ i7 processors/Intel® Core™ i5 processors/ Intel® Core™ i3 processors/Intel® Pentium® processors/ Intel® Celeron® processors in the LGA1151 package L3 cache varies with CPU",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVaTy3ney11aSC1K8RVDIWXT3yHowZSQnhAA&s",
+        "category": "gaming",
+        "price": 7300
+    },
+    
+    {
+        "name": "Corsair Vengeance Desktop RAM",
+        "details": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
+        "image": "https://www.startech.com.bd/image/cache/catalog/RAM/VENG_LPX_BLK_01-500x500.png",
+        "category": "ram",
+        "price": 2500
+    },
+    {
+        "name": "RGB Casing Cooling Fan",
+        "details": "Gamdias AEOLUS M2 1201 120mm RGB Casing Cooling Fan",
+        "image": "https://selltech.com.bd/image/cache/catalog/Gamdias%20AEOLUS%20M2%201201%20120mm%20RGB%20Casing%20Cooling%20Fan.jpg-550x550.jpg.webp",
+        "category": "processor",
+        "price": 1100
+    },
+    {
+        "name": "JEDEL-S-526 RGB Stereo Speaker",
+        "details": "JEDEL-S-526 RGB Stereo Speaker Computer Speakers- RGB Black.",
+        "image": "https://img.drz.lazcdn.com/static/bd/p/838d2d923820551caab15876fba64d67.jpg_960x960q80.jpg_.webp",
+        "category": "soup",
+        "price": 650
+    },
+    {
+        "name": "Fantech PORTAL HQ55 RGB Gaming Headphone",
+        "details": "Fantech PORTAL HQ55 RGB Gaming Headphone is designed for gamers seeking the perfect combination of comfort and performance.",
+        "image": "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/portal-hq55/portal-hq55-01-500x500.webp",
+        "category": "gaming",
+        "price": 1400
+    },
+    {
+        
+        "name": "Gaming Mousepad",
+        "details": "Edge Stitching Anti-slip base Smooth Surface",
+        "image": "https://images.othoba.com/images/thumbs/0558338_fantech-vigil-mp452-gaming-mousepad.jpeg",
+        "category": "gaming",
+        "price": 350
+    },
+    {
+        
+        "name": "BlackCat C22WVA 21.5-inch FHD 75Hz Frameless LED Monitor",
+        "details": "The Blackcat C22WVA is a 21.5-inch Full HD LED monitor that offers an impressive 1920×1080 resolution, ensuring crystal-clear visuals.",
+        "image": "https://jananicomputers.com/_next/image?url=https%3A%2F%2Fjanani-image.blr1.cdn.digitaloceanspaces.com%2Fdeaf82aa-0e06-4d72-a954-af647e7b961f-BlackCat%20C22i100%201.webp&w=640&q=75",
+        "category": "ram",
+        "price": 9500
+    },
+    {
+        "name": "ADATA UC300 128GB Type-C Pen Drive",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSEvAW0ztw3lvx-I7jiTxboRCmSoO-ztO9A&s",
+        "category": "offered",
+        "price": 1150
+    },
+    {
+        "name": "Esonic-19-ELMW-Wide-Screen-LED-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/zh1yWYLv/Esonic-19-ELMW-Wide-Screen-LED-Monitor.jpg",
+        "category": "Monitor",
+        "price": 4100
+    },
+    {
+        "name": "Gigasonic-17-LED-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/S45g0WvD/gigasonic17.jpg",
+        "category": "Monitor",
+        "price": 3200
+    },
+    {
+        "name": "Gigasonic-19-LED-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/4wtyjxXm/gigasonic19.jpg",
+        "category": "Monitor",
+        "price": 4000
+    },
+    {
+        "name": "Hi-POWER-22-INCH-BORDERLESS-LED-IPS-MONITOR",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/HDc0zgNp/Hi-POWER-22-INCH-BORDERLESS-LED-IPS-MONITOR-With-2-Year-Panel-Warranty.jpg",
+        "category": "Monitor",
+        "price": 7500
+    },
+    {
+        "name": "OVO-PCM2050-E-21-5-inch-White-FHD-IPS-Display-100-Hz-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/mCNV0b2N/OVO-PCM2050-E-21-5-inch-White-FHD-IPS-Display-100-Hz-Monitor-1.jpg",
+        "category": "Monitor",
+        "price": 8500
+    },
+    {
+        "name": "HP-24f-24-Inch-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/q3h6ccr3/HP-24f-24-Inch-Monitor.webp",
+        "category": "Monitor",
+        "price": 17500
+    },
+    {
+        "name": "HP-M22f-22-FHD-IPS-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/dsBMGCwk/HP-M22f-22-FHD-IPS-Monitor.jpg",
+        "category": "Monitor",
+        "price": 13500
+    },
+    {
+        "name": "MSI-PRO-MP225-21-5-inch-100-Hz-IPS-FHD-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/fVzxfgdw/MSI-PRO-MP225-21-5-inch-100-Hz-IPS-FHD-Monitor.jpg",
+        "category": "Monitor",
+        "price": 11500
+    },
+    {
+        "name": "New-PCV-22-Inch-Bordarless-Monitor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/99sqpRbP/New-PCV-22-Inch-Bordarless-Monitor.jpg",
+        "category": "Monitor",
+        "price": 9800
+    },
+    {
+        "name": "Esonic H81",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/7xYcYtRc/28c6fa91394e5a138f868b677e5604b6.jpg",
+        "category": "Motherboard",
+        "price": 4500
+    },
+    {
+        "name": "Esonic H41",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/wZxrtbmT/681caff21201874465553ee9d76059cc.jpg",
+        "category": "Motherboard",
+        "price": 3300
+    },
+    {
+        "name": "Octech H61",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/0yMhMv9j/abaac57ef951e57bffbd497c3ff38224.jpg",
+        "category": "Motherboard",
+        "price": 5200
+    },
+    {
+        "name": "Gigabyte H510M",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/VYvRCDX6/h510m-h-box-500x500.jpg",
+        "category": "Motherboard",
+        "price": 9600
+    },
+    {
+        "name": "Gigabyte H610MH",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/3y925T6f/h610mh-ddr4.png",
+        "category": "Motherboard",
+        "price": 11500
+    },
+    {
+        "name": "Esonic H61",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/s99dSxPr/images.jpg",
+        "category": "Motherboard",
+        "price": 11500
+    },
+    {
+        "name": "Octech H81",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/XrTSThbk/S65efa733b6a04adba5dde1bbbe5dd544-K.jpg",
+        "category": "Motherboard",
+        "price": 11500
+    },
+    {
+        "name": "8th-Gen-Intel-Core-i7-Badge",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/Fk6YrPyS/8th-Gen-Intel-Core-i7-Badge.jpg",
+        "category": "processor",
+        "price": 11500
+    },
+    {
+        "name": "i3 processor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/9Hxyf1BZ/05686011d766f4e573fcbf3b1be80524.jpg",
+        "category": "processor",
+        "price": 500
+    },
+    {
+        "name": "4th gen i5",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/WpkDQ6Mx/giant-85517.jpg",
+        "category": "processor",
+        "price": 500
+    },
+    {
+        "name": "i5-10400",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/gBySdFN/i5-10400-1-500x500-1.jpg",
+        "category": "processor",
+        "price": 500
+    },
+    {
+        "name": "i7-10700",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/Z6BJNCCv/i7-10700-500x500.jpg",
+        "category": "processor",
+        "price": 500
+    },
+    {
+        "name": "intel-9th-gen-core-i5-9500-processor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/XxCxy2t9/intel-9th-gen-core-i5-9500-processor-tray-500x500.jpg",
+        "category": "processor",
+        "price": 500
+    },
+    {
+        "name": "intel-core-i7-12700-21-ghz-12-core-lga-1700processor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/FLRRztK2/intel-core-i7-12700-21-ghz-12-core-lga-1700processor.webp",
+        "category": "processor",
+        "price": 500
+    },
+    {
+        "name": "Ryzen-5-5600-G-Processor",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/C5h3TMjr/Ryzen-5-5600-G-Processor-Price-in-bd-2023-jpg-1080x1080-jpg.webp",
+        "category": "processor",
+        "price": 500
+    },
+    {
+        "name": "MSI GT 710 2GD3H LP 2GB DDR3 Gaming Graphic Card",
+        "details": "Key Features Model: MSI GT 710 2GD3H LP Boost Clock 1600 MHz D-Sub x 1/ HDMI x 1/ DL-DVI-D x 1 Predator: In-game video recording Lower temperature and higher efficiency",
+        "image": "https://i.ibb.co/KxmktTZz/gt-710-2gd3h-lp-500x500.jpg",
+        "category": "Graphic Card",
+        "price": 5300,
+        "Regular Price":5830,
+        "Status" :	"In Stock"
+
+    },
+    {
+        "name": "GIGABYTE GeForce GT 710 2GB Graphics Card",
+        "details": "Key Features MPN: GV-N710D5-2GIL Model: GeForce GT 710 2GB Core Clock: 954 MHz Memory: 2GB GDDR5 Support PCI Express 2.0 x8 bus interface Output: Dual-Link DVI-D x1, HDMI x1, D-SUB x1",
+        "image": "https://i.ibb.co/vCMkrt4L/geforce-gt-710-01-500x500.webp",
+        "category": "Graphic Card",
+        "price": 6200,
+        "Regular Price":6820,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "PELADN RX 550 4G Gaming GDDR5 128 Bit Black Graphics Card",
+        "details": "Key Features Model: RX 550 4G Core Frequency: 1071MHz Memory Clock Speed: 1500MHz Video Output: DP+HD+DVI Two-fan cooling system",
+        "image": "https://i.ibb.co/gLKMPxH6/rx-550-4g-gaming-01-500x500.webp",
+        "category": "Graphic Card",
+        "price": 9900,
+        "Regular Price":10740,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Gigabyte GeForce GT 1030 Low Profile 2GB DDR5 Graphics Card",
+        "details": "Key Features MPN: GV-N1030D5-2GL Model: Gigabyte GeForce GT 1030 Low Profile Powered by GeForce GT 1030 Integrated with 2GB GDDR5 64bit memory Low profile design with 150 mm card length One-click overclocking via AORUS Graphics Engine",
+        "image": "https://i.ibb.co/5hbKvMNj/geforce-gt-1030-low-profile-500x500.jpg",
+       "category": "Graphic Card",
+        "price": 10200,
+        "Regular Price":11750,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Basic DDR3 4GB 1600MHZ Desktop RAM",
+        "details": "Key Features Model: Basic DDR3 Capacity: 4GB Frequency: DDR3 1600MHz Form Factor: 240-Pin UDIMM Voltage & Cas Latency: 1.5V/11-11-11-28",
+        "image": "https://i.ibb.co/6JPHVsj8/basic-ddr3-4gb-1600mhz-01-500x500.webp",
+        "category": "ram",
+        "price": 950,
+        "Regular Price":1650,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Adata Premier 8GB DDR4 3200Mhz Desktop RAM",
+        "details": "Key Features Model: Premier 8GB Capacity: 8GB Type- DDR4, Speed: 3200MHz Form Factor: U-DIMMCAS Latencies: 22, Operating voltage: 1.2V",
+        "image": "https://i.ibb.co/990RLWdr/premier-8gb-01-500x500.png",
+        "category": "ram",
+        "price": 2200,
+        "Regular Price":2700,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "G.SKILL Aegis 8GB DDR4 3200Mhz Desktop RAM",
+        "details": "Key Features MPN: F4-3200C16-8GIS Model: Aegis Capacity: 8GB Speed: 3200 Mhz Latency: 16-18-18-38 Voltage: 1.20V",
+        "image": "https://i.ibb.co/vxwNGKZZ/Aegis-01-500x500.webp",
+        "category": "ram",
+        "price": 2400,
+        "Regular Price":2820,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Kingston FURY Beast RGB 8GB 3200MHz DDR4 Desktop RAM",
+        "details": "Key Features MPN: KF432C16BBA/8 Model: FURY Beast Stunning RGB lighting with an aggressive style Frequency: 3200MHz; CAS Latency: 16-18-18 Voltage: 1.35V; Form Factor: UDIMM Operating Temperature : 0Â°C to 85Â°C",
+        "image": "https://i.ibb.co/d05rMkYW/fury-beast-rgb-01-500x500.jpg",
+        "category": "ram",
+        "price": 2950,
+        "Regular Price":3580,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "ENMAX 128GB 2.5 SATA III Laptop & Desktop SSD",
+        "details": "This ENMAX is shock-proof, durable, and highly reliable SSD that will represent the best quality. This SSD has a 7mm plastic case that is suitable for desktops, notebooks, mini computers, all-in-ones and other commercial PCs. It's high-quality TLC flash, coupled with industry-leading high-quality controllers will ensure excellent stability on all platforms. Its maximum read speed is 550 MB/s and write speed is 500 MB/s.",
+        "image": "https://i.ibb.co/YFHnGGZ3/giant-296915.jpg",
+        "category": "ssd",
+        "price": 1250,
+        "Regular Price":1600,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "ENMAX 256GB 2.5 SATA III Laptop & Desktop SSD",
+        "details": "This ENMAX SSD comes with 256GB storage capacity. It is shock-proof, durable, and highly reliable SSD. This SSD is designed by 7mm plastic case which will be ideal set for desktop, notebook, mini computer, all-in-one and other commercial PC. It has high-quality TLC flash technology that will ensure excellent stability on all platforms with high-quality controllers. Its MAX read speed is 550 MB/s and write speed is 500 MB/s.",
+        "image": "https://i.ibb.co/pvdKgDwH/giant-296916.jpg",
+        "category": "ssd",
+        "price": 1800,
+        "Regular Price":2600,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "KingSpec P3 256GB 2.5'' SATA SSD",
+        "details": "The KingSpec P3 2.5'' SATA SSD comes with 256GB capacity. It offers fast and continuous read-write speeds to help improve working efficiency, gaming experience, and graphics quality. This SSD featured Exclusive 3D NAND Firmware technology, which is a Strict selection of stable and high-performance 64-layer. KingSpec P3 SSD comes with a High-level LDPC Debugging Mechanism, that ensures the accuracy of data transmission, protects data security, and extends useful life.",
+        "image": "https://i.ibb.co/SDhXLkz9/giant-206048.jpg",
+        "category": "ssd",
+        "price": 1950,
+        "Regular Price":2700,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Adata SU650 256GB 2.5 SATA SSD",
+        "details": "The Adata SU650 solid-state drive has a 256GB capacity that uses 3D NAND flash and a high relative interface. It is an outstanding alternative with a terrific cost combination for those who desire to enjoy error-free PC performance. Also, this SU650 has super read/write speeds that are more reliable than 2D NAND SSDs. To achieve optimal data throughput and reliability, it includes SLC storage and advanced error-correcting technology.",
+        "image": "https://i.ibb.co/h016HDg/giant-291743.jpg",
+        "category": "ssd",
+        "price": 2200,
+        "Regular Price":3200,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "TwinMOS AlphaPro 256GB NVMe M.2 SSD",
+        "details": "This AlphaPro solid-state drive from TwinMOS uses the NVMe (Non-Volatile Memory Express) protocol to deliver high-speed data transfer rates. It's designed in the M.2 2280 form factor to fit into compatible motherboard slots. With a capacity of 256GB, it's great for storing your operating system, applications, and some games or files. Compared to traditional hard drives, it provides faster boot times and improved overall system performance.",
+        "image": "https://i.ibb.co/Df10KFkN/giant-314905.jpg",
+        "category": "ssd",
+        "price": 2500,
+        "Regular Price":2900,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "TwinMos H2 Ultra 512GB SATA III SSD",
+        "details": "The TwinMos H2 Ultra SSD is suitable for SATA-based use in an existing PC or MAC desktop or laptop computer. It has a storage capacity of 512GB. It features 2.5-inch SATA III compatibility. This SSD has read speeds of up to 580 MB/s and writes of up to 550 MB/s.",
+        "image": "https://i.ibb.co/0yKY5sr1/giant-246839.jpg",
+        "category": "ssd",
+        "price": 4650,
+        "Regular Price":5500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Transcend SSD225S 500GB 2.5 SSD with 3D NAND",
+        "details": "This Transcend SSD225S comes with 500GB storage capacity including a 2.5 SATAIII high-performance interface that offers exceptional transfer speeds and data integrity. With 3D NAND flash type and LDPC coding, this SSD ensures that your data is safe and secure. It also features a built-in SLC caching technology that provides faster transfer speeds. The SSD supports DevSleep ultra-low power state, S.M.A.R.T. TRIM, and NCQ commands.",
+        "image": "https://i.ibb.co/FbkDFbkZ/giant-241802.jpg",
+        "category": "ssd",
+        "price": 5350,
+        "Regular Price":6500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Ramsta S600 240GB Internal SSD",
+        "details": "This Ramsta S600 internal SSD features a 2.5-inch, light, and thin body dimension of 100 x 70 x 6.9 mm, shockproof, low and high-temperature resistance, anti-static, anti-magnetic, anti-X-ray, and heat protection. It has 240GB storage capacity.",
+        "image": "https://i.ibb.co/ZRFXn4m7/giant-190527.jpg",
+        "category": "ssd",
+        "price": 2200,
+        "Regular Price":2500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Intel S4600 480GB SATA 2.5 Server SSD",
+        "details": "The Dell S4600 server SSD comes with a 480GB storage capacity. This is a server SSD that is durable, shock-proof, and highly reliable. This SSD has a Read Transfer Rate of 500 MB/s and a Write Transfer Rate of 480 MB/s. This is compatible with all HPE, and DELL servers.",
+        "image": "https://i.ibb.co/rG3WNsWK/giant-334538.jpg",
+        "category": "ssd",
+        "price": 15000,
+        "Regular Price":16500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "AData Ultimate SU650 120GB SATA Solid State Drive",
+        "details": "The AData Ultimate SU650 SSD comes with 120GB capacity. It supports advanced error correction code technology that can detect and fix errors to ensure optimized data integrity. This SSD can offer a read performance of up to 520MB/s and a write performance of up to 450MB/s. It includes 3D NAND Flash which provides 25% more reliability than 2D NAND SSD. This SSD has no mechanical components inside, so it works under shock, vibration, and extreme temperatures. Also consumes much less power, and keeps data better protected at all times.",
+        "image": "https://i.ibb.co/wFd9vW6c/giant-253203.jpg",
+        "category": "ssd",
+        "price": 1750,
+        "Regular Price":1900,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Apacer AS340 Panther 120GB SATA 6GB/s SSD",
+        "details": "The Apacer AS340 has a SATA III interface and sequential read and write speeds of up to 550 / 550 MB/s, 3D TLC NAND flash, 40°C ~ +85°C storage temperature, advanced wear-leveling & up to 72bit/1KB ECC function, 2.5 inch form factor. 0~2000Hz vibration, KCC / CE / FCC / VCCI / RCM / BSMI certificate, (L)100 x (W) 69.9 x (H) 7mm dimension",
+        "image": "https://i.ibb.co/fYzNnQWd/giant-216883.jpg",
+        "category": "ssd",
+        "price": 1650,
+        "Regular Price":2200,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "OVO AH-1901 Mid-Tower ATX Casing",
+        "details": "Model: AH-1901 Motherboard Support: ATX, Micro-ATX, Mini-ITX Drive Bays: 2x 3.5, 2x 2.5 Front Panel: Plastic, Side Panel: Metal Ports: 2x USB, 2x 3.5mm Audio Port",
+        "image": "https://i.ibb.co/N266ZqxG/ah-1901-500x500.webp",
+        "category": "casing",
+        "price": 1300,
+        "Regular Price":1500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "OVO M-3709 Mini Tower mATX LED Gaming Casing",
+        "details": "Model: M-3709 Motherboard Support: Micro-ATX, ITX, Mini-ITX LED Lighting, 120mm Fan Support Front Panel: Plastic, Side Panel: Metal Ports: 2x USB, 2x 3.5mm Audio Port",
+        "image": "https://i.ibb.co/N6v2C2Fg/m-3709-500x500.webp",
+        "category": "casing",
+        "price": 1650,
+        "Regular Price":1800,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "OVO J-618 W RGB Mini-Tower mATX Gaming Casing",
+        "details": "Model: J-618 W Motherboard Support: Micro-ATX, ITX, Mini-ITX RGB Lighing, Pre-Install Fan: 2x 120mm RGB Fan Front Panel: Mash, Side Panel: Metal Ports: 2x USB, 2x 3.5mm Audio Port",
+        "image": "https://i.ibb.co/Kj5v6HcT/j-618-w-500x500.webp",
+        "category": "casing",
+        "price": 2250,
+        "Regular Price":2500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "OVO 2804-G1 RGB Mid-Tower Gaming Casing",
+        "details": "Model: 2802-M2 Motherboard Support: ATX, Micro-ATX Pre-Install Fan: 3x RGB Fans Front Panel: Glass Side Panel: Acrylic Temper Glass",
+        "image": "https://i.ibb.co/C5dtkkqH/2802-m2-500x500.webp",
+        "category": "ssd",
+        "price": 2550,
+        "Regular Price":2600,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Octech H81",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/XrTSThbk/S65efa733b6a04adba5dde1bbbe5dd544-K.jpg",
+        "category": "ssd",
+        "price": 4650,
+        "Regular Price":5500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Octech H81",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/XrTSThbk/S65efa733b6a04adba5dde1bbbe5dd544-K.jpg",
+        "category": "ssd",
+        "price": 4650,
+        "Regular Price":5500,
+        "Status" :	"In Stock"
+    },
+    {
+        "name": "Octech H81",
+        "details": "Windows, Vista, 7, 8, 8.1, 10, 11, Mac OS X 10.6 or later, Linux kernel 2.6 or later, with no device driver needed",
+        "image": "https://i.ibb.co/XrTSThbk/S65efa733b6a04adba5dde1bbbe5dd544-K.jpg",
+        "category": "ssd",
+        "price": 4650,
+        "Regular Price":5500,
+        "Status" :	"In Stock"
+    }
+]

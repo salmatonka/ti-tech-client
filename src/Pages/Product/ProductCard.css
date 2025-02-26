@@ -1,0 +1,11 @@
+.imgBody{
+    /* width: 100%;
+    height: 190px; */
+    overflow: hidden;
+}
+.imgBody img{
+    transition: all 0.4s;
+}
+.cardBody:hover img{
+    transform: scale(1.2);
+}
