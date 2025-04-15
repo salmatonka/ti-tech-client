@@ -31,12 +31,12 @@ export const router = createBrowserRouter([
             // },
             {
                 path: '/products/:category',
-                loader: ({params}) =>fetch(`http://localhost:5000/products/${params.category}`),
+                loader: ({params}) =>fetch(`https://ti-server-git-main-salmatonkas-projects.vercel.app/products/${params?.category}`),
                 element: <CategoryCard />
             },
             {
-                path: '/singleProduct/:id',
-                loader: ({params}) =>fetch(`http://localhost:5000/singleProduct/${params?.id}`),
+                path: '/product/:id',
+                loader: ({params}) =>fetch(`https://ti-server-git-main-salmatonkas-projects.vercel.app/product/${params?.id}`),
                 element: <ProductDetails />
             }
         ]

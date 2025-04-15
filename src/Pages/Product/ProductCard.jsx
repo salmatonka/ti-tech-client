@@ -44,10 +44,10 @@ const ProductCard = ({ product }) => {
             <div className="card-body">
                 <h2 className="card-title">{name}</h2>
                 <p>{ details? details?.slice(0, 60) : 'no details'}...</p>
-                <h3 className="text-xl text-primary font-semibold">Price: ${price}</h3>
-                <Link to={`/services/${_id}`}>
+                <h3 className="text-xl text-[#3749bb] font-semibold">Price: {price}<span className="font-extrabold">৳</span> </h3>
+                <Link to={`/product/${_id}`}>
                     <div className="card-actions ">
-                        <button title={`More details about ${name}`} className="py-3 border rounded-md  bg-slate-300 w-full">
+                        <button title={`More details about ${name}`} className="py-3 font-semibold  border rounded-md  bg-slate-300 w-full">
                             More details
                         </button>
                     </div>

@@ -5,8 +5,8 @@ const Product = () => {
     const [products, setProducts] = useState([]);
     // const [loading, setLoading] = useState([]);
   useEffect(() => {
-    // fetch('http://localhost:5000/products')
-    fetch('products.json')
+    fetch('https://ti-server-git-main-salmatonkas-projects.vercel.app/products')
+    // fetch('products.json')
       .then(res => res.json())
       .then(data => {
         setProducts(data)

@@ -5,8 +5,9 @@ const SingleCard = ({ categoryProduct }) => {
     const { name, details, image, price,_id } = categoryProduct;
     return (
         <div>
+
             <div className=''>
-                <div className="max-w-lg p-4 shadow-lg bg-gray-200 dark:text-gray-800">
+                <div className="max-w-lg p-4  shadow-lg bg-gray-200 dark:text-gray-800">
                     <div className="flex justify-between pb-4 border-bottom">
                         <div className="flex items-center">
                             <a rel="noopener noreferrer" href="#" className="mb-0 capitalize dark:text-gray-800 bg-gray-300 py-1 px-1">TK. {price}</a>
@@ -27,7 +28,7 @@ const SingleCard = ({ categoryProduct }) => {
                     </div>
 
                     <button type="button" className=" w-full p-3 font-semibold tracking-wide rounded-md bg-gray-300 py-2">
-                        <Link className='flex items-center justify-center' to='/'>Add To Cart <HiOutlineShoppingCart className='ml-2' /></Link></button>
+                        <Link className='flex items-center justify-center ' to='/'>Add To Cart <HiOutlineShoppingCart className='ml-2' /></Link></button>
 
                 </div>
             </div>
