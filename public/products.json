@@ -1,837 +1,1016 @@
-[   
-    {
-        "name": "ENMAX 128GB 2.5 SATA III Laptop & Desktop SSD",
-        "details": "This ENMAX is shock-proof, durable, and highly reliable SSD that will represent the best quality. This SSD has a 7mm plastic case that is suitable for desktops, notebooks, mini computers, all-in-ones and other commercial PCs. It's high-quality TLC flash, coupled with industry-leading high-quality controllers will ensure excellent stability on all platforms. Its maximum read speed is 550 MB/s and write speed is 500 MB/s.",
-        "image": "https://i.ibb.co/YFHnGGZ3/giant-296915.jpg",
-        "category": "Ssd",
-        "price": 1250,
-        "regular_price":1600,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Intel Core i7 7th Generation Processor ",
-        "details": "The Intel Core i7-7700 Seven Generation Processor provides a Base Frequency of 3.60 GHz and 8 MB Intel Smart & good Cache. it's Four cores and Eight threads Supported.",
-        "image": "https://www.gvsbd.com/wp-content/uploads/2021/12/Intel-Core-i7-8700K-Processor.jpeg.webp",
-        "category": "Processor",
-        "price": 9500,
-        "regular_price":17500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "GIGABYTE GeForce GT 710 2GB Graphics Card",
-        "details": "Key Features MPN: GV-N710D5-2GIL Model: GeForce GT 710 2GB Core Clock: 954 MHz Memory: 2GB GDDR5 Support PCI Express 2.0 x8 bus interface Output: Dual-Link DVI-D x1, HDMI x1, D-SUB x1",
-        "image": "https://i.ibb.co/vCMkrt4L/geforce-gt-710-01-500x500.webp",
-        "category": "Graphic",
-        "price": 6200,
-        "regular_price":6820,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "AMD Ryzen 5 7500F Processor",
-        "details": "The AMD Ryzen 5 7500F Processor is built on the advanced Zen 4 architecture with the former codename Raphael AM5.",
-        "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-5-7600/ryzen-5-7600-01-500x500.webp",
-        "category": "Processor",
-        "price": 17000,
-        "regular_price":17700,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "OVO X10 ARGB Mid-Tower Gaming Casing white",
-        "details": "Model: X10-W White Motherboard Support: ATX, Micro-ATX Pre-Install Fan: 4x ARGB Fans Front Panel: Glass Side Panel: Tempered Glass",
-        "image": "https://www.ultratech.com.bd/image/cache/catalog/OVO/ovo-x10-argb-mid-tower-gaming-casing-white-2-500x500.jpg.webp",
-        "category": "Casing",
-        "price": 4800,
-        "regular_price":5000,
-        "status" :	"In Stock"
-    },
+[
     {
         "name": "A4Tech KRS-82 Keyboard ",
         "details": "Model: KRS-82 Connectivity: USB Hotkeys: 12 FN Multimedia Hotkeys Keycaps: A-Shape, Round Edge Cable Length: 150 cm ",
         "image": "https://i.ibb.co/LzfqCWHb/a4tech-kr-83-black-wired-usb-comfortkey-fn-keyboard.webp",
-        "category": "Accessories",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
         "price": 999,
-        "regular_price":1050,
-        "status" :	"In Stock"
+        "regular_price": 1050,
+        "status": "In Stock"
+    },
+    {
+        "name": "HP 2.4g Wireless Optical Mouse",
+        "details": "Brand: HP Product details of HP 2.4G Wireless Optical Mouse - Black, Red, and Blue, Type: Optical USB Mouse, Connectivity: Wired, Color: Black, Red",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStprIjNc5iNKA-kfCddp9tbKmM7_KxJgBisg&s",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 380,
+        "regular_price": 450,
+        "status": "In Stock"
+    },
+    {
+        "name": "9V 2A Power Supply Adaptor",
+        "details": "Widely used in WiFi Router, LED Display, Communications, etc.",
+        "image": "https://m.media-amazon.com/images/I/51WZMOPhqfL._AC_UF894,1000_QL80_.jpg",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 250,
+        "regular_price": 400,
+        "status": "In Stock"
+    },
+    {
+        "name": "RGB Casing Cooling Fan",
+        "details": "Gamdias AEOLUS M2 1201 120mm RGB Casing Cooling Fan",
+        "image": "https://selltech.com.bd/image/cache/catalog/Gamdias%20AEOLUS%20M2%201201%20120mm%20RGB%20Casing%20Cooling%20Fan.jpg-550x550.jpg.webp",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1100,
+        "regular_price": 1500,
+        "status": "In Stock"
+    },
+    {
+        "name": "JEDEL-S-526 RGB Stereo Speaker",
+        "details": "JEDEL-S-526 RGB Stereo Speaker Computer Speakers- RGB Black.",
+        "image": "https://img.drz.lazcdn.com/static/bd/p/838d2d923820551caab15876fba64d67.jpg_960x960q80.jpg_.webp",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 650,
+        "regular_price": 700,
+        "status": "In Stock"
+    },
+    {
+        "name": "Gaming Mousepad",
+        "details": "Edge Stitching Anti-slip base Smooth Surface",
+        "image": "https://images.othoba.com/images/thumbs/0558338_fantech-vigil-mp452-gaming-mousepad.jpeg",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 350,
+        "regular_price": 500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Fantech PORTAL HQ55 RGB Gaming Headphone",
+        "details": "Fantech PORTAL HQ55 RGB Gaming Headphone is designed for gamers seeking the perfect combination of comfort and performance.",
+        "image": "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/portal-hq55/portal-hq55-01-500x500.webp",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1400,
+        "regular_price": 1500,
+        "status": "In Stock"
+    },
+    {
+        "name": "ADATA UC300 128GB Type-C Pen Drive",
+        "details": "Model: UC300 Capacity: 128GB Interface: USB 3.2 Gen1 Performance: Up to 100 MB/s read USB Type-C support for high compatibility",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSEvAW0ztw3lvx-I7jiTxboRCmSoO-ztO9A&s",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1150,
+        "regular_price": 1500,
+        "status": "In Stock"
+    },
+    {
+        "name": "HP ProDesk Power Supply",
+        "details": "Connectors: 1x 4-pin (mainboard), 1x 6-pin, 1x 6-pin (PCi-Express) Hp prodesk elitedesk 450 g2 .",
+        "image": "https://cdn.bdstall.com/product-image/giant_163101.jpg",
+        "category": "PowerSupply",
+        "menu": "",
+        "sunMenu": "",
+        "price": 2550,
+        "regular_price": 3500,
+        "status": "In Stock"
+    },
+    {
+        "name": "PC Power Cable 3 Pin For DESKTOP",
+        "details": "PC Power Cable 3 Pin 1.5M For DESKTOP Its a best quality product Power Cable Type: Power Cable for PC (1.5 Meter) Color: black Its For desktop pc & monitor Polarized cable: Polarized power cable designed to connect a wall socket and your Laptop/notebook power brick. The female connector plugs directly into the device while the male connector plugs into a standard outlet. Overload protection: Overload protection with high quality wires.",
+        "image": "https://i.ibb.co/LV9vKWB/power-cable.jpg",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 180,
+        "regular_price": 250,
+        "status": "In Stock"
+    },
+    {
+        "name": "Caddy HDD SSD Enclosure For Laptop",
+        "details": "Brand: Anself Color:Silver Type: HDD Caddy Thickness: 9.5mm Material: Aluminum Alloy Compatible Devices: Laptop Dimension: 12.7 x 12.7 x 0.95 cm Hardware Interface:SATA 3.0 Gb/s Compatible Hard Disk: For 2.5 inch SATA 3.0 Series HDD, SSD 9.5mm Connector Type: SATA Batteries Required: No Made In/ Assembled In: China.",
+        "image": "https://i.ibb.co/VpDHbDH8/caddy-9-5mm.webp",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 150,
+        "regular_price": 200,
+        "status": "In Stock"
+    },
+    {
+        "name": "A4Tech PK-935HL 1080p Full HD Webcam",
+        "details": "Model: PK-935HL Resolution: Full HD 1080P Frame Rate: 30fps Viewing Angle: 75 Wide Degrees USB: USB 2.0",
+        "image": "https://i.ibb.co/0phNqjjd/a4tech-pk-935hl-1080p-webcam-500x500.jpg",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 3450,
+        "regular_price": 3700,
+        "status": "In Stock"
+    },
+    {
+        "name": "Xtrike Me HP-312 Stereo Gaming Headset",
+        "details": "Model: HP-312 Microphone Type: Omnidirectional Speaker Size: 40 mm, Stereo Sound Connectors: 2 x 3.5mm jackCable Length: 1.8m",
+        "image": "https://i.ibb.co/WWX0nz3X/hp-312-01-500x500.webp",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1100,
+        "regular_price": 1250,
+        "status": "In Stock"
+    },
+    {
+        "name": "HDMI Male to VGA Female Converter with Audio",
+        "details": "Interface: HDMI, VGA, 3.5mm Length: 0.15 Meter Resolution: FHD (1920 x 1080) OS Compatibility: Windows/Mac OS/Android/Linux",
+        "image": "https://i.ibb.co/DPVYvmjL/yhv-010-01-500x500.webp",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 650,
+        "regular_price": 700,
+        "status": "In Stock"
+    },
+    {
+        "name": "Havit H18 4-Port USB 2.0 HUB",
+        "details": "Model: Havit H18 Input: AC 100-240V-50 to 60 Hz and 0.5A Port: USB Type: 4 port USB 2.0 Output: 5V 2.4A(MAX)",
+        "image": "https://i.ibb.co/204jJTkh/h18-01-500x500.webp",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 450,
+        "regular_price": 500,
+        "status": "In Stock"
+    },
+    {
+        "name": "HP M10 Wired Mouse - Black",
+        "details": "Title: HP M10 Wired Mouse - Black, Brand: HP Colour Black Country of Origin China Connection Type Wired Dimensions 108 x 64 x 35mm Compatibility Supported Operating System - Windows 7, 8, 8.1, 10, 11 .ModelM10 System Requirements Windows 7, 8, 8.1, 10, 11 Interface USB Type-A Number of buttons 3 Scrolling Yes Tracking System Adjustable high-precision optical tracking engine Click Sound Yes Max DPI 1000 DPI Resolution.",
+        "image": "https://i.ibb.co/kV52qmSr/HP-M10-Wired-Mouse-HP-08648-375089.jpg",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 499,
+        "regular_price": 650,
+        "status": "In Stock"
+    },
+    {
+        "name": "HP W10 Wireless RGB Bluetooth, Wireless, Rechargeable Slim Mouse",
+        "details": "2.4G Wireless and Bluetooth 5.1: With Dual Mode Connection. You could switch the mode by just toggle switching. Silent Click and Adjustable DPI: Special soundless design for the right and left buttons, make you concentrate on working or playing games without disturbing others. Switch DPI levels among 800, 1200, and 1600 to meet your needs with high precision. Advanced optical tracking technology ensures greater sensitivity for precise tracking on various surfaces. Rechargeable and Energy Saving: The mouse has a built-in rechargeable battery, with a charging cable. No need to change batteries. Slim and Ergonomic Design: Symmetric and ergonomic design make this wireless mouse fit for both left and right hand, The naturally curved grip of the mouse makes it comfortably and perfectly in your hands, avoiding hand fatigue for long-term use. The slim and portable design makes the mouse can be used anywhere, a great travel mouse with colorful LED backlight auto-change with a breathing light effect. Wide Compatibility: Bluetooth mode works with Windows / Android / MAC OS systems. Easy to pair and connect, and do not occupy any USB ports. The 2.4GHz model works with a laptop, desktop, or any device with a USB port, simply plug in the USB receiver, plug in, and play directly. (Note: The USB receiver is stored at the bottom of the mouse)",
+        "image": "https://i.ibb.co/ksQhTJ3V/hp-w10-wireless-rgb-bluetoothwirelessrechargeable-slim-mouse.jpg",
+       "category": "Accessories",
+        "menu": "",
+        "sunMenu": "",
+        "price": 720,
+        "regular_price": 850,
+        "status": "In Stock"
+    },
+    {
+        "name": "Gigasonic RDA-1705M 17 Inch HDMI LED Square Monitor",
+        "details": "Model: RDA-1705M Maximum Resolution: 1600 x 900p Display: LED, 60Hz, 5ms Ports: 1x HDMI, 1x VGA Color Support: 16.7 million colors with the use of FRC",
+        "image": "https://i.ibb.co/S45g0WvD/gigasonic17.jpg",
+        "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
+        "price": 3300,
+        "regular_price": 3500,
+        "status": "In Stock"
     },
     {
         "name": "Esonic-19-ELMW-Wide-Screen-LED-Monitor",
         "details": "Model: 19ELMW Resolution: 1366 x 768 Response Time: 5ms Contrast Ratio:1000:1 Brightness:300cd/m2",
         "image": "https://i.ibb.co/zh1yWYLv/Esonic-19-ELMW-Wide-Screen-LED-Monitor.jpg",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 4100,
-        "regular_price":4500,
-        "status" :	"In Stock"
-    },
-    { 
-        "name": "HP 2.4g Wireless Optical Mouse",
-        "details": "Brand: HP Product details of HP 2.4G Wireless Optical Mouse - Black, Red, and Blue, Type: Optical USB Mouse, Connectivity: Wired, Color: Black, Red",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStprIjNc5iNKA-kfCddp9tbKmM7_KxJgBisg&s",
-        "category": "Accessories",
-        "price": 380,
-        "regular_price":450,
-        "status" :	"In Stock"
+        "regular_price": 4500,
+        "status": "In Stock"
     },
     {
-        "name": "9V 2A Power Supply Adaptor",
-        "details": "Widely used in WiFi Router, LED Display, Communications, etc.",
-        "image": "https://m.media-amazon.com/images/I/51WZMOPhqfL._AC_UF894,1000_QL80_.jpg",
-        "category": "Accessories",
-        "price": 250,
-        "regular_price":400,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Gigabyte GA-B150M-D3H",
-        "details": "Support for Intel® Core™ i7 processors/Intel® Core™ i5 processors/ Intel® Core™ i3 processors/Intel® Pentium® processors/ Intel® Celeron® processors in the LGA1151 package L3 cache varies with CPU",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVaTy3ney11aSC1K8RVDIWXT3yHowZSQnhAA&s",
-        "category": "Motherboard",
-        "price": 7300,
-        "regular_price":9500,
-        "status" :	"In Stock"
-    },
-    
-    {
-        "name": "Corsair Vengeance Desktop RAM",
-        "details": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
-        "image": "https://www.startech.com.bd/image/cache/catalog/RAM/VENG_LPX_BLK_01-500x500.png",
-        "category": "Ram",
-        "price": 2500,
-        "regular_price":3000,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "RGB Casing Cooling Fan",
-        "details": "Gamdias AEOLUS M2 1201 120mm RGB Casing Cooling Fan",
-        "image": "https://selltech.com.bd/image/cache/catalog/Gamdias%20AEOLUS%20M2%201201%20120mm%20RGB%20Casing%20Cooling%20Fan.jpg-550x550.jpg.webp",
-        "category": "Accessories",
-        "price": 1100,
-        "regular_price":1500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "JEDEL-S-526 RGB Stereo Speaker",
-        "details": "JEDEL-S-526 RGB Stereo Speaker Computer Speakers- RGB Black.",
-        "image": "https://img.drz.lazcdn.com/static/bd/p/838d2d923820551caab15876fba64d67.jpg_960x960q80.jpg_.webp",
-        "category": "Accessories",
-        "price": 650,
-        "regular_price":700,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Fantech PORTAL HQ55 RGB Gaming Headphone",
-        "details": "Fantech PORTAL HQ55 RGB Gaming Headphone is designed for gamers seeking the perfect combination of comfort and performance.",
-        "image": "https://www.startech.com.bd/image/cache/catalog/headphone/fantech/portal-hq55/portal-hq55-01-500x500.webp",
-        "category": "Accessories",
-        "price": 1400,
-        "regular_price":1500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "TI Power Supply",
-        "details": "Maximum Power: 600W Fan Size: 60mm Form Factor: ATX Connectors: 3x SATA Connector 1x IDE Connector .",
-        "image": "https://i.ibb.co/nNYG7SLS/IMG-20250127-150337-435.jpg",
-        "category": "PowerSupply",
-        "price": 550,
-        "regular_price":31500,
-        "status" :	"In Stock"
-        },
-        {
-            "name": "HP ProDesk Power Supply",
-            "details": "Connectors: 1x 4-pin (mainboard), 1x 6-pin, 1x 6-pin (PCi-Express) Hp prodesk elitedesk 450 g2 .",
-            "image": "https://cdn.bdstall.com/product-image/giant_163101.jpg",
-            "category": "PowerSupply",
-            "price": 2550,
-            "regular_price":3500,
-            "status" :	"In Stock"
-        },
-    {
-        
-        "name": "Gaming Mousepad",
-        "details": "Edge Stitching Anti-slip base Smooth Surface",
-        "image": "https://images.othoba.com/images/thumbs/0558338_fantech-vigil-mp452-gaming-mousepad.jpeg",
-        "category": "Accessories",
-        "price": 350,
-        "regular_price":500,
-        "status" :	"In Stock"
-    },
-    {
-        
         "name": "BlackCat C22WVA 21.5-inch FHD 75Hz Frameless LED Monitor",
         "details": "The Blackcat C22WVA is a 21.5-inch Full HD LED monitor that offers an impressive 1920×1080 resolution, ensuring crystal-clear visuals.",
         "image": "https://jananicomputers.com/_next/image?url=https%3A%2F%2Fjanani-image.blr1.cdn.digitaloceanspaces.com%2Fdeaf82aa-0e06-4d72-a954-af647e7b961f-BlackCat%20C22i100%201.webp&w=640&q=75",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 9500,
-        "regular_price":10000,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "ADATA UC300 128GB Type-C Pen Drive",
-        "details": "Model: UC300 Capacity: 128GB Interface: USB 3.2 Gen1 Performance: Up to 100 MB/s read USB Type-C support for high compatibility",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmSEvAW0ztw3lvx-I7jiTxboRCmSoO-ztO9A&s",
-        "category": "Accessories",
-        "price": 1150,
-        "regular_price":1500,
-        "status" :	"In Stock"
-    },
-    
-    {
-        "name": "Gigasonic RDA-1705M 17 Inch HDMI LED Square Monitor",
-        "details": "Model: RDA-1705M Maximum Resolution: 1600 x 900p Display: LED, 60Hz, 5ms Ports: 1x HDMI, 1x VGA Color Support: 16.7 million colors with the use of FRC",
-        "image": "https://i.ibb.co/S45g0WvD/gigasonic17.jpg",
-        "category": "Monitor",
-        "price": 3300,
-        "regular_price":3500,
-        "status" :	"In Stock"
+        "regular_price": 10000,
+        "status": "In Stock"
     },
     {
         "name": "GIGASONIC 19 inch HD LED Monitor",
         "details": "Model: RB-G19S-300C Resolution:1280 x 1024 Display Interface: VGA Size: 19 inch Display Type: LED display",
         "image": "https://i.ibb.co/4wtyjxXm/gigasonic19.jpg",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 3900,
-        "regular_price":4000,
-        "status" :	"In Stock"
+        "regular_price": 4000,
+        "status": "In Stock"
     },
     {
         "name": "Hi-POWER-22-INCH-BORDERLESS-LED-IPS-MONITOR",
         "details": "Screen Size: 22 inches Resolution: 1920 x 1080 Panel Type: IPS Refresh Rate: 75Hz Brightness: 200 cd/m",
         "image": "https://i.ibb.co/HDc0zgNp/Hi-POWER-22-INCH-BORDERLESS-LED-IPS-MONITOR-With-2-Year-Panel-Warranty.jpg",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 8400,
-        "regular_price":9500,
-        "status" :	"In Stock"
+        "regular_price": 9500,
+        "status": "In Stock"
     },
     {
         "name": "OVO-PCM2050-E-21-5-inch-White-FHD-IPS-Display-100-Hz-Monitor",
         "details": "Screen Size 21.5-inch Resolution 1920 × 1080-FHD Brightness 300 cdd/m² Refresh Rate 100 Hz ",
         "image": "https://i.ibb.co/mCNV0b2N/OVO-PCM2050-E-21-5-inch-White-FHD-IPS-Display-100-Hz-Monitor-1.jpg",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 8500,
-        "regular_price":9500,
-        "status" :	"In Stock"
+        "regular_price": 9500,
+        "status": "In Stock"
     },
     {
         "name": "HP-24f-24-Inch-Monitor",
         "details": "MPN: 2D9K0AA Model: M24f Resolution: FHD (1920 x 1080) Display: IPS, 75Hz, 5ms Ports: HDMI, VGA Features: Free Sync, Low Blue Light",
         "image": "https://i.ibb.co/q3h6ccr3/HP-24f-24-Inch-Monitor.webp",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 19500,
-        "regular_price":21000,
-        "status" :	"In Stock"
+        "regular_price": 21000,
+        "status": "In Stock"
     },
     {
         "name": "HP-M22f-22-FHD-IPS-Monitor",
         "details": "MPN: 2D9J9AA Model: M22f Resolution: FHD (1920 x 1080) Display: IPS, 75Hz, 5ms Ports: HDMI, VGA Features: Free Sync, Low Blue Light, Anti-glare",
         "image": "https://i.ibb.co/dsBMGCwk/HP-M22f-22-FHD-IPS-Monitor.jpg",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 13500,
-        "regular_price":14500,
-        "status" :	"In Stock"
+        "regular_price": 14500,
+        "status": "In Stock"
     },
     {
         "name": "MSI-PRO-MP225-21-5-inch-100-Hz-IPS-FHD-Monitor",
         "details": "Model: PRO MP225 Resolution: FHD (1920 x 1080) Display: IPS, 100Hz, 1ms Ports: 1x HDMI, 1x VGA, 1x Audio Out Features: Anti-Flicker Technology, EYE-Q Check",
         "image": "https://i.ibb.co/fVzxfgdw/MSI-PRO-MP225-21-5-inch-100-Hz-IPS-FHD-Monitor.jpg",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 11000,
-        "regular_price":11500,
-        "status" :	"In Stock"
+        "regular_price": 11500,
+        "status": "In Stock"
     },
     {
         "name": "New-PCV-22-Inch-Bordarless-Monitor",
         "details": "Display Size 22 inch Display Type FHD WLED Resolution (Pixel) 1920 x 1080 Curvature Flat",
         "image": "https://i.ibb.co/99sqpRbP/New-PCV-22-Inch-Bordarless-Monitor.jpg",
         "category": "Monitor",
+        "menu": "",
+        "sunMenu": "",
         "price": 7800,
-        "regular_price":9500,
-        "status" :	"In Stock"
+        "regular_price": 9500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Gigabyte GA-B150M-D3H",
+        "details": "Support for Intel® Core™ i7 processors/Intel® Core™ i5 processors/ Intel® Core™ i3 processors/Intel® Pentium® processors/ Intel® Celeron® processors in the LGA1151 package L3 cache varies with CPU",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVaTy3ney11aSC1K8RVDIWXT3yHowZSQnhAA&s",
+        "category": "Motherboard",
+        "menu": "Gigabyte(Inter)",
+        "sunMenu": "Core™ i7",
+        "price": 7300,
+        "regular_price": 9500,
+        "status": "In Stock"
     },
     {
         "name": "Esonic Intel H81DA1 DDR3 Motherboard",
         "details": "Chipset: Intel® H81 Memory support : 2 * DDR3 1066/1333MHz DIMM Memory Type: DDR3 Dimension: 215 x 170mm",
         "image": "https://i.ibb.co/7xYcYtRc/28c6fa91394e5a138f868b677e5604b6.jpg",
         "category": "Motherboard",
+        "menu": "Esonic",
+        "sunMenu": "",
         "price": 4000,
-        "regular_price":4500,
-        "status" :	"In Stock"
+        "regular_price": 4500,
+        "status": "In Stock"
     },
     {
         "name": "Esonic Intel G41 DDR3 Motherboard",
         "details": "Memory Type: DDR3 (2 slots) Expansion Slots:1 x PCI/ 1x PCIex16 USB Ports: 4 x USB 2.0 SATA Connectors: 2 x SATA2",
         "image": "https://i.ibb.co/wZxrtbmT/681caff21201874465553ee9d76059cc.jpg",
         "category": "Motherboard",
+        "menu": "Esonic",
+        "sunMenu": "",
         "price": 2900,
-        "regular_price":3500,
-        "status" :	"In Stock"
+        "regular_price": 3500,
+        "status": "In Stock"
     },
     {
         "name": "OCTECH Intel H61 DDR3 Motherboard",
         "details": "Type: DDR3 Socket: 1155 Warranty: 2 Years Warranty Graphics: GMA X4500 Graphics",
         "image": "https://i.ibb.co/0yMhMv9j/abaac57ef951e57bffbd497c3ff38224.jpg",
         "category": "Motherboard",
+        "menu": "OCTECH",
+        "sunMenu": "",
         "price": 5200,
-        "regular_price":5500,
-        "status" :	"In Stock"
+        "regular_price": 5500,
+        "status": "In Stock"
     },
     {
         "name": "GIGABYTE H510M H Intel 10th and 11th Gen Micro ATX Motherboard",
         "details": "Model: H510M H Supports 11th and 10th Gen Intel Core Processors Dual-Channel DDR4, 2 DIMMs Ultra-Fast M.2 with PCIe Gen3 X4 GIGABYTE Exclusive 8118 Gaming LAN",
         "image": "https://i.ibb.co/VYvRCDX6/h510m-h-box-500x500.jpg",
         "category": "Motherboard",
+        "menu": "GIGABYTE",
+        "sunMenu": "",
         "price": 9600,
-        "regular_price":10000,
-        "status" :	"In Stock"
+        "regular_price": 10000,
+        "status": "In Stock"
     },
     {
         "name": "GIGABYTE H610M H DDR4 Micro ATX Motherboard",
         "details": "Model: H610M H DDR4 Supported CPU: 14th/13th/12th Gen Intel Processors (LGA1700)Dual Channel Non-ECC Unbuffered DDR4, 2 DIMMs Intel GbE LAN with cFosSpeed Internet Accelerator Software NVMe PCIe 3.0 x4 M.2",
         "image": "https://i.ibb.co/3y925T6f/h610mh-ddr4.png",
         "category": "Motherboard",
+        "menu": "",
+        "sunMenu": "",
         "price": 11500,
-        "regular_price":31500,
-        "status" :	"In Stock"
+        "regular_price": 31500,
+        "status": "In Stock"
     },
     {
         "name": "Esonic H61-DA1 NVMe Supported Micro ATX Motherboard",
         "details": "Model: H61DAI Socket Support : 1155 USB 3/2 & HDMI 1333, 1600 MHz Memory",
         "image": "https://i.ibb.co/s99dSxPr/images.jpg",
         "category": "Motherboard",
+        "menu": "",
+        "sunMenu": "",
         "price": 2650,
-        "regular_price":2800,
-        "status" :	"In Stock"
+        "regular_price": 2800,
+        "status": "In Stock"
     },
     {
         "name": "OCTECH Intel H81 Motherboard",
         "details": "Model IH81 OCTECHMotherboard Type StandardChipsetIntel H81Supported Processors Supports Intel 4th generation Core i7 / i5 / i3 / Pentium / Celeron / XeonMax Memory Up to 16GBOnboard AudioRealtek 662 on board, Supports 6-channel audio-outOnboardLANRealtek RTL8105/8106 10/100Mbps Ethernet on Board",
         "image": "https://i.ibb.co/XrTSThbk/S65efa733b6a04adba5dde1bbbe5dd544-K.jpg",
         "category": "Motherboard",
-         "price": 5500,
-        "regular_price":5500,
-        "status" :	"In Stock"
+        "menu": "",
+        "sunMenu": "",
+        "price": 5500,
+        "regular_price": 5500,
+        "status": "In Stock"
     },
     {
         "name": "Intel Core i7-8700 8th Generation Processor",
         "details": "Default TDP: 65W Maximum Size: 128GB Maximum Speed: 2666 Max Number of Channels: 2 Max Dynamic Frequency 1.20GHz Max Video Memory: 64GB Max Resolution 4K Support: Yes, at 60Hz Max Resolution: (HDMI 1.4)‡ 4096 x 2304@24Hz Max Resolution: (DP)‡ 4096 x 2304@60Hz Max Resolution: (eDP Integrated Flat Panel)‡ 4096 x 2304@60Hz",
         "image": "https://i.ibb.co/Fk6YrPyS/8th-Gen-Intel-Core-i7-Badge.jpg",
         "category": "Processor",
+        "menu": "Intel",
+        "sunMenu": "Core i7",
+        "generation": "8th Generation",
         "price": 12000,
-        "regular_price":13000,
-        "status" :	"In Stock"
+        "regular_price": 13000,
+        "status": "In Stock"
     },
     {
         "name": "Intel Core I3-4130 2 Core 4 Thread 4th Gen Processor (BULK)",
         "details": "Model: Core I3-4130 Number Of Cores 2 Number Of Threads 4 Max Memory Size 32 GB",
         "image": "https://i.ibb.co/9Hxyf1BZ/05686011d766f4e573fcbf3b1be80524.jpg",
         "category": "Processor",
+        "menu": "Intel",
+        "sunMenu": "Core i3",
+        "generation": "4th Generation",
         "price": 2000,
-        "regular_price":2800,
-        "status" :	"In Stock"
+        "regular_price": 2800,
+        "status": "In Stock"
     },
     {
         "name": "Intel Core i5 4570 4th Gen Desktop Processor",
         "details": "Intel Core i5-4570 3.20 GHz - 3.60 GHz 4 Cores  & 4 Threads Intel 4400 Graphics",
         "image": "https://i.ibb.co/WpkDQ6Mx/giant-85517.jpg",
         "category": "Processor",
+        "menu": "",
+        "sunMenu": "",
         "price": 2700,
-        "regular_price":3100,
-        "status" :	"In Stock"
+        "regular_price": 3100,
+        "status": "In Stock"
     },
     {
         "name": "Intel 10th Gen Core i5-10400 Processor",
         "details": "Model: Intel Core i5-10400 Clock Speed:2.90 GHz up to 4.30 GHz Cores-6 & Threads-12 12 MB SmartCache Intel UHD Graphics 630",
         "image": "https://i.ibb.co/gBySdFN/i5-10400-1-500x500-1.jpg",
         "category": "Processor",
+        "menu": "",
+        "sunMenu": "",
         "price": 15500,
-        "regular_price":16500,
-        "status" :	"In Stock"
+        "regular_price": 16500,
+        "status": "In Stock"
     },
     {
         "name": "Intel 10th Gen Core i7-10700 Processor",
         "details": "Model: Intel Core i7-10700 Frequency: 2.90 GHz up to 4.8GHz 16M Cache 8 Core 16 Threads Intel UHD Graphics 630",
         "image": "https://i.ibb.co/Z6BJNCCv/i7-10700-500x500.jpg",
         "category": "Processor",
+        "menu": "",
+        "sunMenu": "",
         "price": 27000,
-        "regular_price":29000,
-        "status" :	"In Stock"
+        "regular_price": 29000,
+        "status": "In Stock"
     },
     {
         "name": "Intel 9th Gen Core i5-9500 Processor",
         "details": "Model: Intel Core i5-9500 Clock Speed: 3.00 GHz up to 4.40 GHz Cores-6 & Threads-6 9MB Smart Cache Intel UHD Graphics 630",
         "image": "https://i.ibb.co/XxCxy2t9/intel-9th-gen-core-i5-9500-processor-tray-500x500.jpg",
         "category": "Processor",
+        "menu": "",
+        "sunMenu": "",
         "price": 9500,
-        "regular_price":13500,
-        "status" :	"In Stock"
+        "regular_price": 13500,
+        "status": "In Stock"
     },
     {
         "name": "Intel 12th Gen Core i7-12700 Alder Lake Processor",
         "details": "Model: Core i7-12700 Clock Speed: 2.10 GHz Up to 4.80 GHz Cache: 25MB, Socket: LGA 1700 CPU Cores: 12, CPU Threads: 20 GPU: Intel UHD Graphics 770",
         "image": "https://i.ibb.co/FLRRztK2/intel-core-i7-12700-21-ghz-12-core-lga-1700processor.webp",
         "category": "Processor",
+        "menu": "",
+        "sunMenu": "",
         "price": 30000,
-        "regular_price":31500,
-        "status" :	"In Stock"
+        "regular_price": 31500,
+        "status": "In Stock"
     },
     {
         "name": "AMD Ryzen 5 5600G Processor with Radeon Graphics",
         "details": "Model: Ryzen 5 5600G Speed: 3.9GHz up to 4.4GHz Cache: L2: 3MB, L3: 16MB Cores-6 & Threads-12 Memory Speed: Up to 3200MHz",
         "image": "https://i.ibb.co/C5h3TMjr/Ryzen-5-5600-G-Processor-Price-in-bd-2023-jpg-1080x1080-jpg.webp",
         "category": "Processor",
+        "menu": "",
+        "sunMenu": "",
         "price": 15000,
-        "regular_price":15500,
-        "status" :	"In Stock"
+        "regular_price": 15500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Intel Core i7 7th Generation Processor ",
+        "details": "The Intel Core i7-7700 Seven Generation Processor provides a Base Frequency of 3.60 GHz and 8 MB Intel Smart & good Cache. it's Four cores and Eight threads Supported.",
+        "image": "https://www.gvsbd.com/wp-content/uploads/2021/12/Intel-Core-i7-8700K-Processor.jpeg.webp",
+        "category": "Processor",
+        "menu": "Intel",
+        "sunMenu": "Core i7",
+        "generation": "7th Generation",
+        "price": 9500,
+        "regular_price": 17500,
+        "status": "In Stock"
+    },
+    {
+        "name": "AMD Ryzen 5 7500F Processor",
+        "details": "The AMD Ryzen 5 7500F Processor is built on the advanced Zen 4 architecture with the former codename Raphael AM5.",
+        "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-5-7600/ryzen-5-7600-01-500x500.webp",
+        "category": "Processor",
+        "menu": "AMD",
+        "sunMenu": "Ryzen 5",
+        "price": 17000,
+        "regular_price": 17700,
+        "status": "In Stock"
     },
     {
         "name": "MSI GT 710 2GD3H LP 2GB DDR3 Gaming Graphic",
         "details": "Key Features Model: MSI GT 710 2GD3H LP Boost Clock 1600 MHz D-Sub x 1/ HDMI x 1/ DL-DVI-D x 1 Predator: In-game video recording Lower temperature and higher efficiency",
         "image": "https://i.ibb.co/KxmktTZz/gt-710-2gd3h-lp-500x500.jpg",
         "category": "Graphic",
+        "menu": "MSI",
+        "sunMenu": "",
         "price": 5300,
-        "regular_price":5830,
-        "status" :	"In Stock"
-
+        "regular_price": 5830,
+        "status": "In Stock"
     },
-    
     {
         "name": "PELADN RX 550 4G Gaming GDDR5 128 Bit Black Graphics Card",
         "details": "Key Features Model: RX 550 4G Core Frequency: 1071MHz Memory Clock Speed: 1500MHz Video Output: DP+HD+DVI Two-fan cooling system",
         "image": "https://i.ibb.co/gLKMPxH6/rx-550-4g-gaming-01-500x500.webp",
         "category": "Graphic",
+        "menu": "",
+        "sunMenu": "",
         "price": 9900,
-        "regular_price":10740,
-        "status" :	"In Stock"
+        "regular_price": 10740,
+        "status": "In Stock"
     },
     {
         "name": "Gigabyte GeForce GT 1030 Low Profile 2GB DDR5 Graphics Card",
         "details": "Key Features MPN: GV-N1030D5-2GL Model: Gigabyte GeForce GT 1030 Low Profile Powered by GeForce GT 1030 Integrated with 2GB GDDR5 64bit memory Low profile design with 150 mm card length One-click overclocking via AORUS Graphics Engine",
         "image": "https://i.ibb.co/5hbKvMNj/geforce-gt-1030-low-profile-500x500.jpg",
-       "category": "Graphic",
+        "category": "Graphic",
+        "menu": "",
+        "sunMenu": "",
         "price": 10200,
-        "regular_price":11750,
-        "status" :	"In Stock"
+        "regular_price": 11750,
+        "status": "In Stock"
+    },
+    {
+        "name": "GIGABYTE GeForce GT 710 2GB Graphics Card",
+        "details": "Key Features MPN: GV-N710D5-2GIL Model: GeForce GT 710 2GB Core Clock: 954 MHz Memory: 2GB GDDR5 Support PCI Express 2.0 x8 bus interface Output: Dual-Link DVI-D x1, HDMI x1, D-SUB x1",
+        "image": "https://i.ibb.co/vCMkrt4L/geforce-gt-710-01-500x500.webp",
+        "category": "Graphic",
+        "menu": "",
+        "sunMenu": "",
+        "price": 6200,
+        "regular_price": 6820,
+        "status": "In Stock"
     },
     {
         "name": "Basic DDR3 4GB 1600MHZ Desktop RAM",
         "details": "Key Features Model: Basic DDR3 Capacity: 4GB Frequency: DDR3 1600MHz Form Factor: 240-Pin UDIMM Voltage & Cas Latency: 1.5V/11-11-11-28",
         "image": "https://i.ibb.co/6JPHVsj8/basic-ddr3-4gb-1600mhz-01-500x500.webp",
         "category": "Ram",
+        "menu": "",
+        "sunMenu": "",
         "price": 950,
-        "regular_price":1650,
-        "status" :	"In Stock"
+        "regular_price": 1650,
+        "status": "In Stock"
+    },
+    {
+        "name": "Corsair Vengeance Desktop RAM",
+        "details": "Corsair Vengeance LPX 8GB 3200MHz DDR4 Desktop RAM",
+        "image": "https://www.startech.com.bd/image/cache/catalog/RAM/VENG_LPX_BLK_01-500x500.png",
+        "category": "Ram",
+        "menu": "",
+        "sunMenu": "",
+        "price": 2500,
+        "regular_price": 3000,
+        "status": "In Stock"
     },
     {
         "name": "Adata Premier 8GB DDR4 3200Mhz Desktop RAM",
         "details": "Key Features Model: Premier 8GB Capacity: 8GB Type- DDR4, Speed: 3200MHz Form Factor: U-DIMMCAS Latencies: 22, Operating voltage: 1.2V",
         "image": "https://i.ibb.co/990RLWdr/premier-8gb-01-500x500.png",
         "category": "Ram",
+        "menu": "",
+        "sunMenu": "",
         "price": 2200,
-        "regular_price":2700,
-        "status" :	"In Stock"
+        "regular_price": 2700,
+        "status": "In Stock"
     },
     {
         "name": "G.SKILL Aegis 8GB DDR4 3200Mhz Desktop RAM",
         "details": "Key Features MPN: F4-3200C16-8GIS Model: Aegis Capacity: 8GB Speed: 3200 Mhz Latency: 16-18-18-38 Voltage: 1.20V",
         "image": "https://i.ibb.co/vxwNGKZZ/Aegis-01-500x500.webp",
         "category": "Ram",
+        "menu": "",
+        "sunMenu": "",
         "price": 2400,
-        "regular_price":2820,
-        "status" :	"In Stock"
+        "regular_price": 2820,
+        "status": "In Stock"
     },
     {
         "name": "Kingston FURY Beast RGB 8GB 3200MHz DDR4 Desktop RAM",
         "details": "Key Features MPN: KF432C16BBA/8 Model: FURY Beast Stunning RGB lighting with an aggressive style Frequency: 3200MHz; CAS Latency: 16-18-18 Voltage: 1.35V; Form Factor: UDIMM Operating Temperature : 0Â°C to 85Â°C",
         "image": "https://i.ibb.co/d05rMkYW/fury-beast-rgb-01-500x500.jpg",
         "category": "Ram",
+        "menu": "",
+        "sunMenu": "",
         "price": 2950,
-        "regular_price":3580,
-        "status" :	"In Stock"
+        "regular_price": 3580,
+        "status": "In Stock"
     },
-    
     {
         "name": "ENMAX 256GB 2.5 SATA III Laptop & Desktop SSD",
         "details": "This ENMAX SSD comes with 256GB storage capacity. It is shock-proof, durable, and highly reliable SSD. This SSD is designed by 7mm plastic case which will be ideal set for desktop, notebook, mini computer, all-in-one and other commercial PC. It has high-quality TLC flash technology that will ensure excellent stability on all platforms with high-quality controllers. Its MAX read speed is 550 MB/s and write speed is 500 MB/s.",
         "image": "https://i.ibb.co/pvdKgDwH/giant-296916.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 1800,
-        "regular_price":2600,
-        "status" :	"In Stock"
+        "regular_price": 2600,
+        "status": "In Stock"
     },
     {
         "name": "KingSpec P3 256GB 2.5'' SATA SSD",
         "details": "The KingSpec P3 2.5'' SATA SSD comes with 256GB capacity. It offers fast and continuous read-write speeds to help improve working efficiency, gaming experience, and graphics quality. This SSD featured Exclusive 3D NAND Firmware technology, which is a Strict selection of stable and high-performance 64-layer. KingSpec P3 SSD comes with a High-level LDPC Debugging Mechanism, that ensures the accuracy of data transmission, protects data security, and extends useful life.",
         "image": "https://i.ibb.co/SDhXLkz9/giant-206048.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 1950,
-        "regular_price":2700,
-        "status" :	"In Stock"
+        "regular_price": 2700,
+        "status": "In Stock"
+    },
+    {
+        "name": "ENMAX 128GB 2.5 SATA III Laptop & Desktop SSD",
+        "details": "This ENMAX is shock-proof, durable, and highly reliable SSD that will represent the best quality. This SSD has a 7mm plastic case that is suitable for desktops, notebooks, mini computers, all-in-ones and other commercial PCs. It's high-quality TLC flash, coupled with industry-leading high-quality controllers will ensure excellent stability on all platforms. Its maximum read speed is 550 MB/s and write speed is 500 MB/s.",
+        "image": "https://i.ibb.co/YFHnGGZ3/giant-296915.jpg",
+        "category": "Laptop",
+        "brand": "SSD",
+        "price": 1250,
+        "regular_price": 1600,
+        "status": "In Stock"
     },
     {
         "name": "Adata SU650 256GB 2.5 SATA SSD",
         "details": "The Adata SU650 solid-state drive has a 256GB capacity that uses 3D NAND flash and a high relative interface. It is an outstanding alternative with a terrific cost combination for those who desire to enjoy error-free PC performance. Also, this SU650 has super read/write speeds that are more reliable than 2D NAND SSDs. To achieve optimal data throughput and reliability, it includes SLC storage and advanced error-correcting technology.",
         "image": "https://i.ibb.co/h016HDg/giant-291743.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 2200,
-        "regular_price":3200,
-        "status" :	"In Stock"
+        "regular_price": 3200,
+        "status": "In Stock"
     },
     {
         "name": "TwinMOS AlphaPro 256GB NVMe M.2 SSD",
         "details": "This AlphaPro solid-state drive from TwinMOS uses the NVMe (Non-Volatile Memory Express) protocol to deliver high-speed data transfer rates. It's designed in the M.2 2280 form factor to fit into compatible motherboard slots. With a capacity of 256GB, it's great for storing your operating system, applications, and some games or files. Compared to traditional hard drives, it provides faster boot times and improved overall system performance.",
         "image": "https://i.ibb.co/Df10KFkN/giant-314905.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 2500,
-        "regular_price":2900,
-        "status" :	"In Stock"
+        "regular_price": 2900,
+        "status": "In Stock"
     },
     {
         "name": "TwinMos H2 Ultra 512GB SATA III SSD",
         "details": "The TwinMos H2 Ultra SSD is suitable for SATA-based use in an existing PC or MAC desktop or laptop computer. It has a storage capacity of 512GB. It features 2.5-inch SATA III compatibility. This SSD has read speeds of up to 580 MB/s and writes of up to 550 MB/s.",
         "image": "https://i.ibb.co/0yKY5sr1/giant-246839.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 4650,
-        "regular_price":5500,
-        "status" :	"In Stock"
+        "regular_price": 5500,
+        "status": "In Stock"
     },
     {
         "name": "Transcend SSD225S 500GB 2.5 SSD with 3D NAND",
         "details": "This Transcend SSD225S comes with 500GB storage capacity including a 2.5 SATAIII high-performance interface that offers exceptional transfer speeds and data integrity. With 3D NAND flash type and LDPC coding, this SSD ensures that your data is safe and secure. It also features a built-in SLC caching technology that provides faster transfer speeds. The SSD supports DevSleep ultra-low power state, S.M.A.R.T. TRIM, and NCQ commands.",
         "image": "https://i.ibb.co/FbkDFbkZ/giant-241802.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 5350,
-        "regular_price":6500,
-        "status" :	"In Stock"
+        "regular_price": 6500,
+        "status": "In Stock"
     },
     {
         "name": "Ramsta S600 240GB Internal SSD",
         "details": "This Ramsta S600 internal SSD features a 2.5-inch, light, and thin body dimension of 100 x 70 x 6.9 mm, shockproof, low and high-temperature resistance, anti-static, anti-magnetic, anti-X-ray, and heat protection. It has 240GB storage capacity.",
         "image": "https://i.ibb.co/ZRFXn4m7/giant-190527.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 2200,
-        "regular_price":2500,
-        "status" :	"In Stock"
+        "regular_price": 2500,
+        "status": "In Stock"
     },
     {
         "name": "Intel S4600 480GB SATA 2.5 Server SSD",
         "details": "The Dell S4600 server SSD comes with a 480GB storage capacity. This is a server SSD that is durable, shock-proof, and highly reliable. This SSD has a Read Transfer Rate of 500 MB/s and a Write Transfer Rate of 480 MB/s. This is compatible with all HPE, and DELL servers.",
         "image": "https://i.ibb.co/rG3WNsWK/giant-334538.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 15000,
-        "regular_price":16500,
-        "status" :	"In Stock"
+        "regular_price": 16500,
+        "status": "In Stock"
     },
     {
         "name": "AData Ultimate SU650 120GB SATA Solid State Drive",
         "details": "The AData Ultimate SU650 SSD comes with 120GB capacity. It supports advanced error correction code technology that can detect and fix errors to ensure optimized data integrity. This SSD can offer a read performance of up to 520MB/s and a write performance of up to 450MB/s. It includes 3D NAND Flash which provides 25% more reliability than 2D NAND SSD. This SSD has no mechanical components inside, so it works under shock, vibration, and extreme temperatures. Also consumes much less power, and keeps data better protected at all times.",
         "image": "https://i.ibb.co/wFd9vW6c/giant-253203.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 1750,
-        "regular_price":1900,
-        "status" :	"In Stock"
+        "regular_price": 1900,
+        "status": "In Stock"
     },
     {
         "name": "Apacer AS340 Panther 120GB SATA 6GB/s SSD",
         "details": "The Apacer AS340 has a SATA III interface and sequential read and write speeds of up to 550 / 550 MB/s, 3D TLC NAND flash, 40°C ~ +85°C storage temperature, advanced wear-leveling & up to 72bit/1KB ECC function, 2.5 inch form factor. 0~2000Hz vibration, KCC / CE / FCC / VCCI / RCM / BSMI certificate, (L)100 x (W) 69.9 x (H) 7mm dimension",
         "image": "https://i.ibb.co/fYzNnQWd/giant-216883.jpg",
-        "category": "Ssd",
+        "category": "SSD",
+        "menu": "",
+        "sunMenu": "",
         "price": 1650,
-        "regular_price":2200,
-        "status" :	"In Stock"
+        "regular_price": 2200,
+        "status": "In Stock"
     },
     {
         "name": "OVO AH-1901 Mid-Tower ATX Casing",
         "details": "Model: AH-1901 Motherboard Support: ATX, Micro-ATX, Mini-ITX Drive Bays: 2x 3.5, 2x 2.5 Front Panel: Plastic, Side Panel: Metal Ports: 2x USB, 2x 3.5mm Audio Port",
         "image": "https://i.ibb.co/N266ZqxG/ah-1901-500x500.webp",
         "category": "Casing",
+        "menu": "",
+        "sunMenu": "",
         "price": 1300,
-        "regular_price":1500,
-        "status" :	"In Stock"
+        "regular_price": 1500,
+        "status": "In Stock"
     },
     {
         "name": "OVO M-3709 Mini Tower mATX LED Gaming Casing",
         "details": "Model: M-3709 Motherboard Support: Micro-ATX, ITX, Mini-ITX LED Lighting, 120mm Fan Support Front Panel: Plastic, Side Panel: Metal Ports: 2x USB, 2x 3.5mm Audio Port",
         "image": "https://i.ibb.co/N6v2C2Fg/m-3709-500x500.webp",
         "category": "Casing",
+        "menu": "",
+        "sunMenu": "",
         "price": 1650,
-        "regular_price":1800,
-        "status" :	"In Stock"
+        "regular_price": 1800,
+        "status": "In Stock"
     },
     {
         "name": "OVO J-618 W RGB Mini-Tower mATX Gaming Casing",
         "details": "Model: J-618 W Motherboard Support: Micro-ATX, ITX, Mini-ITX RGB Lighing, Pre-Install Fan: 2x 120mm RGB Fan Front Panel: Mash, Side Panel: Metal Ports: 2x USB, 2x 3.5mm Audio Port",
         "image": "https://i.ibb.co/Kj5v6HcT/j-618-w-500x500.webp",
         "category": "Casing",
+        "menu": "",
+        "sunMenu": "",
         "price": 2250,
-        "regular_price":2500,
-        "status" :	"In Stock"
+        "regular_price": 2500,
+        "status": "In Stock"
     },
     {
         "name": "OVO 2804-G1 RGB Mid-Tower Gaming Casing",
         "details": "Model: 2802-M2 Motherboard Support: ATX, Micro-ATX Pre-Install Fan: 3x RGB Fans Front Panel: Glass Side Panel: Acrylic Temper Glass",
         "image": "https://i.ibb.co/C5dtkkqH/2802-m2-500x500.webp",
         "category": "Casing",
+        "menu": "",
+        "sunMenu": "",
         "price": 2550,
-        "regular_price":2600,
-        "status" :	"In Stock"
+        "regular_price": 2600,
+        "status": "In Stock"
     },
     {
-        "name": "Black cat PC ATX 500W Power Supply",
-        "details": "Black cat PC ATX 500W Power Supply SATA, 24PIN Connectors 2 x SATA Connectors, 1 molex connector, 1 x 4 pin CPU connector, 1 x 24 pin connector, 1 x floppy drive connector 115 VAC Operation, 230 VAC operation. Surge proof, complies with FCC part 15 class B & CISPR22 Over 72% efficiency typical ON full load, outpur over voltage. Over current protection. Low noise and ripple.",
-        "image": "https://i.ibb.co/60GdBvSC/blackcat.jpg",
-        "category": "PowerSupply",
-        "price": 1350,
-        "regular_price":1500,
-        "status" :	"In Stock"
+        "name": "OVO X10 ARGB Mid-Tower Gaming Casing white",
+        "details": "Model: X10-W White Motherboard Support: ATX, Micro-ATX Pre-Install Fan: 4x ARGB Fans Front Panel: Glass Side Panel: Tempered Glass",
+        "image": "https://www.ultratech.com.bd/image/cache/catalog/OVO/ovo-x10-argb-mid-tower-gaming-casing-white-2-500x500.jpg.webp",
+        "category": "Casing",
+        "menu": "",
+        "sunMenu": "",
+        "price": 4800,
+        "regular_price": 5000,
+        "status": "In Stock"
     },
-    {
-        "name": "Antec META V350 350W Power Supply",
-        "details": "Model: META V350 Produces less noise and less heatIndustrial grade protections 120mm Silent Fan Thermal Manager",
-        "image": "https://i.ibb.co/kV4BzB5F/meta-v350-01-500x500.webp",
-        "category": "PowerSupply",
-        "price": 2850,
-        "regular_price":3200,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Gigabyte P550B 550W 80 Plus Bronze Certified Power Supply",
-        "details": "MPN: GP-P550B/PSU 550W/80+B Model: Gigabyte P550BOVP/OPP/SCP/UVP/OCP/OTP protection 80 PLUS Bronze certified Reliable flat cable Single +12V rail",
-        "image": "https://i.ibb.co/21nbzxGs/p550b-500x500.jpg",
-        "category": "PowerSupply",
-        "price": 5000,
-        "regular_price":5500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Thermaltake Smart BX1 550W 80 Plus RGB Bronze Non-Modular Power Supply",
-        "details": "MPN: PS-SPR-0550NHSABE-1 Model: Thermaltake Smart BX1 Low Ripple Noise + High-Quality Japanese Main Capacitor 80 Plus Bronze Certified 550W Continuous Power 10 RGB LEDs Preinstalled",
-        "image": "https://i.ibb.co/XZGnR3w7/smart-bx1-500x500.jpg",
-        "category": "PowerSupply",
-        "price": 5700,
-        "regular_price":6000,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "PC Power Cable 3 Pin For DESKTOP",
-        "details": "PC Power Cable 3 Pin 1.5M For DESKTOP Its a best quality product Power Cable Type: Power Cable for PC (1.5 Meter) Color: black Its For desktop pc & monitor Polarized cable: Polarized power cable designed to connect a wall socket and your Laptop/notebook power brick. The female connector plugs directly into the device while the male connector plugs into a standard outlet. Overload protection: Overload protection with high quality wires.",
-        "image": "https://i.ibb.co/LV9vKWB/power-cable.jpg",
-        "category": "Accessories",
-        "price": 180,
-        "regular_price":250,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Caddy HDD SSD Enclosure For Laptop",
-        "details": "Brand: Anself Color:Silver Type: HDD Caddy Thickness: 9.5mm Material: Aluminum Alloy Compatible Devices: Laptop Dimension: 12.7 x 12.7 x 0.95 cm Hardware Interface:SATA 3.0 Gb/s Compatible Hard Disk: For 2.5 inch SATA 3.0 Series HDD, SSD 9.5mm Connector Type: SATA Batteries Required: No Made In/ Assembled In: China.",
-        "image": "https://i.ibb.co/VpDHbDH8/caddy-9-5mm.webp",
-        "category": "Accessories",
-        "price": 150,
-        "regular_price":200,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "A4Tech PK-935HL 1080p Full HD Webcam",
-        "details": "Model: PK-935HL Resolution: Full HD 1080P Frame Rate: 30fps Viewing Angle: 75 Wide Degrees USB: USB 2.0",
-        "image": "https://i.ibb.co/0phNqjjd/a4tech-pk-935hl-1080p-webcam-500x500.jpg",
-        "category": "Accessories",
-        "price": 3450,
-        "regular_price":3700,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Xtrike Me HP-312 Stereo Gaming Headset",
-        "details": "Model: HP-312 Microphone Type: Omnidirectional Speaker Size: 40 mm, Stereo Sound Connectors: 2 x 3.5mm jackCable Length: 1.8m",
-        "image": "https://i.ibb.co/WWX0nz3X/hp-312-01-500x500.webp",
-        "category": "Accessories",
-        "price": 1100,
-        "regular_price":1250,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "HDMI Male to VGA Female Converter with Audio",
-        "details": "Interface: HDMI, VGA, 3.5mm Length: 0.15 Meter Resolution: FHD (1920 x 1080) OS Compatibility: Windows/Mac OS/Android/Linux",
-        "image": "https://i.ibb.co/DPVYvmjL/yhv-010-01-500x500.webp",
-        "category": "Accessories",
-        "price": 650,
-        "regular_price":700,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Havit H18 4-Port USB 2.0 HUB",
-        "details": "Model: Havit H18 Input: AC 100-240V-50 to 60 Hz and 0.5A Port: USB Type: 4 port USB 2.0 Output: 5V 2.4A(MAX)",
-        "image": "https://i.ibb.co/204jJTkh/h18-01-500x500.webp",
-        "category": "Accessories",
-        "price": 450,
-        "regular_price":500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Gamemax GCR07 Gaming Chair Blue",
-        "details": "Model: GCR07 Blue 100% vegan PU artificial leather cover Fixed armrests with soft cushioning Top-notch rocking mechanism up to 15° Safety class 4 gas lif",
-        "image": "https://i.ibb.co/pv4bxFbw/gcr07-blue-1-500x500.jpg",
-        "category": "Gaming",
-        "price": 17000,
-        "regular_price":18100,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Marvo Scorpion CH-106 Adjustable Gaming Chair Red",
-        "details": "Model: Marvo CH-106 Stable and Sturdy Nylon Base Camber PVC 2D Armrest Butterfly Adjusting Mechanism 350 mm nylon base arms",
-        "image": "https://i.ibb.co/Csm71PFp/ch106-01-500x500.jpg",
-        "category": "Gaming",
-        "price": 19000,
-        "regular_price":20400,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "MeeTion MT-CHR16 Cute Pink Racing E-Sport Gaming Chair",
-        "details": "Model: MT-CHR16 Curved neck support headrest 2D swivel armrest Support lumbar pillow Comfortable and free function",
-        "image": "https://i.ibb.co/zV1RP9L3/mt-chr16-01-500x500.jpg",
-        "category": "Gaming",
-        "price": 25000,
-        "regular_price":27500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Tenda W311MI AX300 Nano USB WiFi Adapter",
-        "details": "Model: W311MI Interfaces: USB2.0 Frequency: 2.4GHz Data Rate: 2.4GHz: Up to 286Mbps Wireless Modes: Station Mode, SoftAP Mode",
-        "image": "https://i.ibb.co/1h4vtFp/w311mi-ax300-01-500x500.webp",
-        "category": "Router",
-        "price": 550,
-        "regular_price":600,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Tenda F3 300mbps Wireless Router",
-        "details": "Model: F3 Frequency: 2.4 GHz3*5dBi external antennas 3 x LAN, 1 x WAN Port Support WISP, Universal Repeater, AP Mode",
-        "image": "https://i.ibb.co/9HML5K8T/tenda-f3-01-500x500.webp",
-        "category": "Router",
-        "price": 1350,
-        "regular_price":1400,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Tenda AC5 AC1200 Dual-Band WiFi Router",
-        "details": "Model: Tenda AC5 4x 6dBi external high-gain antennas Frequency 2.4 GHz & 5 GHz Smart Sleeping Mode Smart LED on/off",
-        "image": "https://i.ibb.co/SDPBnmrj/ac5-001-500x500.png",
-        "category": "Router",
-        "price": 1950,
-        "regular_price":2000,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Tenda AC10 AC1200 Dual Band Gigabit WiFi Router",
-        "details": "Model: AC10 4*6dBi External Dual-Band Antennas 5GHz: Up to 867Mbps 2.4GHz: Up to 300Mbps 1 x Wan + 3 x Lan full gigabit ports",
-        "image": "https://i.ibb.co/DDfdBmWx/b-201801191149275889-500x500.jpg",
-        "category": "Router",
-        "price": 2950,
-        "regular_price":3100,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "TP-Link TL-WR841N 300Mbps Wireless Router",
-        "details": "Model: TP-Link TL-WR841N Speed: Up to 300Mbps Frequency: 2.4 Ghz Interface: 1 x WAN & 4 x LAN ports Features: WISP Mode, AP Mode, Range Extender Mode",
-        "image": "https://i.ibb.co/2Y8VmRT4/tl-wr841n-001-500x500.webp",
-        "category": "Router",
-        "price": 1650,
-        "regular_price":1700,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Tp-link TL-WR845N 300Mbps Wireless Router",
-        "details": "Model: TL-WR845N Frequency: 2.4-2.4835GHz WiFi Speed: up to 300 Mbps 2.4 GHz Interface: 1 x LAN & 4 x WAN ports Feature: IPV6, Access Control, IP & MAC Binding",
-        "image": "https://i.ibb.co/67NL24KR/tl-wr845n-v4-01-500x500.webp",
-        "category": "Router",
-        "price": 1850,
-        "regular_price":1900,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "TP-Link Archer C54 AC1200 Dual Band Wi-Fi Router",
-        "details": "Model: Archer C54 Multi-Mode 3-in-1, Compact and Mountable 4x antennas & Beamforming delivers IPv6 Supported, Parental Controls Coverage Area: Maximum 1200 sq ft to 1500 sq ft Area",
-        "image": "https://i.ibb.co/dJ3ZbsPq/archer-c54-01-500x500.jpg",
-        "category": "Router",
-        "price": 2400,
-        "regular_price":2450,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "TP-Link Archer C6 AC1200 Gigabit Router",
-        "details": "Model: Archer C6 Frequency: 2.4GHz and 5GHz Data Transfer Rate (Wifi) - 1200 Mbps Power Supply: 12V/1A Coverage Area: 1500 to 2000 sq ft (Max)",
-        "image": "https://i.ibb.co/8ncK1Kg6/archer-c6-ac1200-5-500x500.jpg",
-        "category": "Router",
-        "price": 3400,
-        "regular_price":3500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "KSTAR 650VA Offline UPS",
-        "details": "Model: KSTAR 650VA LED Indicators Input Voltage: 230V Capacity: 650VA Frequency: 50 Hz",
-        "image": "https://i.ibb.co/xqLyFgkJ/650va-500x500.webp",
-        "category": "Ups",
-        "price": 3350,
-        "regular_price":3500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "Power Guard 650VA CS Offline UPS (Plastic Body)",
-        "details": "Model: 650VA CS Output Voltage (V): 220/230 VAC +/-10% Frequency (Hz - KHz): 50/60Hz +/-5% Input Voltage (V): 145-280V Load Capacity: 390W",
-        "image": "https://i.ibb.co/1G3Vv73H/Offline-ups-cs-001-500x500.jpg",
-        "category": "Ups",
-        "price": 3400,
-        "regular_price":3550,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "APOLLO 1120F/1120 1200VA Offline UPS",
-        "details": "Model: 1120F Load Capacity: 1200VA Transfer Time: 2ms typical; 5ms maximum Waveform: PWM Simulated Sine wave 2 x Lead-Acid maintenance-free battery",
-        "image": "https://i.ibb.co/YqBKmHb/1120f-01-500x500.jpg",
-        "category": "Ups",
-        "price": 6850,
-        "regular_price":7150,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "KSTAR HP930CH 3KVA Long Backup Online UPS",
-        "details": "Model: HP930CH Capacity: 3KVA Load Capacity: 2100W Voltage Range: 200-240V AC Output Voltage (V): 200/208/220/230/240V AC",
-        "image": "https://i.ibb.co/Rp6HzwK4/hp930ch-01-500x500.webp",
-        "category": "Ups",
-        "price": 31000,
-        "regular_price":31500,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "HP M10 Wired Mouse - Black",
-        "details": "Title: HP M10 Wired Mouse - Black, Brand: HP Colour Black Country of Origin China Connection Type Wired Dimensions 108 x 64 x 35mm Compatibility Supported Operating System - Windows 7, 8, 8.1, 10, 11 .ModelM10 System Requirements Windows 7, 8, 8.1, 10, 11 Interface USB Type-A Number of buttons 3 Scrolling Yes Tracking System Adjustable high-precision optical tracking engine Click Sound Yes Max DPI 1000 DPI Resolution.",
-        "image": "https://i.ibb.co/kV52qmSr/HP-M10-Wired-Mouse-HP-08648-375089.jpg",
-        "category": "Accessories",
-        "price": 499,
-        "regular_price":650,
-        "status" :	"In Stock"
-    },
-    {
-        "name": "HP W10 Wireless RGB Bluetooth, Wireless, Rechargeable Slim Mouse",
-        "details": "2.4G Wireless and Bluetooth 5.1: With Dual Mode Connection. You could switch the mode by just toggle switching. Silent Click and Adjustable DPI: Special soundless design for the right and left buttons, make you concentrate on working or playing games without disturbing others. Switch DPI levels among 800, 1200, and 1600 to meet your needs with high precision. Advanced optical tracking technology ensures greater sensitivity for precise tracking on various surfaces. Rechargeable and Energy Saving: The mouse has a built-in rechargeable battery, with a charging cable. No need to change batteries. Slim and Ergonomic Design: Symmetric and ergonomic design make this wireless mouse fit for both left and right hand, The naturally curved grip of the mouse makes it comfortably and perfectly in your hands, avoiding hand fatigue for long-term use. The slim and portable design makes the mouse can be used anywhere, a great travel mouse with colorful LED backlight auto-change with a breathing light effect. Wide Compatibility: Bluetooth mode works with Windows / Android / MAC OS systems. Easy to pair and connect, and do not occupy any USB ports. The 2.4GHz model works with a laptop, desktop, or any device with a USB port, simply plug in the USB receiver, plug in, and play directly. (Note: The USB receiver is stored at the bottom of the mouse)",
-        "image": "https://i.ibb.co/ksQhTJ3V/hp-w10-wireless-rgb-bluetoothwirelessrechargeable-slim-mouse.jpg",
-        "category": "Accessories",
-        "price": 720,
-        "regular_price":850,
-        "status" :	"In Stock"
-    },
-    {
+      {
         "name": "Safeway i1108 Mid Tower Black ATX Gaming Desktop Case",
         "details": "Case Type - Mid Tower Optical Drive Bay - No Cooling Fan (Built-In) - 4 Lighting Fan - LED Power Supply (Built-In) - No Back-Connect Supported - No",
         "image": "https://i.ibb.co/cctqrhnJ/safeway-i1108-mid-tower-black-atx-gaming-desktop-11680063946.webp",
         "category": "Casing",
+        "menu": "",
+        "sunMenu": "",
         "price": 3500,
-        "regular_price":3640,
-        "status" :	"In Stock"
+        "regular_price": 3640,
+        "status": "In Stock"
     },
     {
         "name": "Safeway Seaview Mid Tower Black Micro-ATX Gaming Desktop Casing",
         "details": "Case Type - Mid Tower Optical Drive Bay - No Cooling Fan (Built-In) - No Lighting Fan - No Power Supply (Built-In) - No Back-Connect Supported - No",
         "image": "https://i.ibb.co/SwPLp4y3/safeway-seaview-mid-tower-black-micro-atx-gaming-11728736335.webp",
         "category": "Casing",
+        "menu": "",
+        "sunMenu": "",
         "price": 4250,
-        "regular_price":4500,
-        "status" :	"In Stock"
+        "regular_price": 4500,
+        "status": "In Stock"
+    },
+    {
+        "name": "TI Power Supply",
+        "details": "Maximum Power: 600W Fan Size: 60mm Form Factor: ATX Connectors: 3x SATA Connector 1x IDE Connector .",
+        "image": "https://i.ibb.co/nNYG7SLS/IMG-20250127-150337-435.jpg",
+        "category": "PowerSupply",
+        "menu": "",
+        "sunMenu": "",
+        "price": 550,
+        "regular_price": 31500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Black cat PC ATX 500W Power Supply",
+        "details": "Black cat PC ATX 500W Power Supply SATA, 24PIN Connectors 2 x SATA Connectors, 1 molex connector, 1 x 4 pin CPU connector, 1 x 24 pin connector, 1 x floppy drive connector 115 VAC Operation, 230 VAC operation. Surge proof, complies with FCC part 15 class B & CISPR22 Over 72% efficiency typical ON full load, outpur over voltage. Over current protection. Low noise and ripple.",
+        "image": "https://i.ibb.co/60GdBvSC/blackcat.jpg",
+        "category": "PowerSupply",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1350,
+        "regular_price": 1500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Antec META V350 350W Power Supply",
+        "details": "Model: META V350 Produces less noise and less heatIndustrial grade protections 120mm Silent Fan Thermal Manager",
+        "image": "https://i.ibb.co/kV4BzB5F/meta-v350-01-500x500.webp",
+        "category": "PowerSupply",
+        "menu": "",
+        "sunMenu": "",
+        "price": 2850,
+        "regular_price": 3200,
+        "status": "In Stock"
+    },
+    {
+        "name": "Gigabyte P550B 550W 80 Plus Bronze Certified Power Supply",
+        "details": "MPN: GP-P550B/PSU 550W/80+B Model: Gigabyte P550BOVP/OPP/SCP/UVP/OCP/OTP protection 80 PLUS Bronze certified Reliable flat cable Single +12V rail",
+        "image": "https://i.ibb.co/21nbzxGs/p550b-500x500.jpg",
+        "category": "PowerSupply",
+        "menu": "",
+        "sunMenu": "",
+        "price": 5000,
+        "regular_price": 5500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Thermaltake Smart BX1 550W 80 Plus RGB Bronze Non-Modular Power Supply",
+        "details": "MPN: PS-SPR-0550NHSABE-1 Model: Thermaltake Smart BX1 Low Ripple Noise + High-Quality Japanese Main Capacitor 80 Plus Bronze Certified 550W Continuous Power 10 RGB LEDs Preinstalled",
+        "image": "https://i.ibb.co/XZGnR3w7/smart-bx1-500x500.jpg",
+        "category": "PowerSupply",
+        "menu": "",
+        "sunMenu": "",
+        "price": 5700,
+        "regular_price": 6000,
+        "status": "In Stock"
+    },
+    {
+        "name": "Gamemax GCR07 Gaming Chair Blue",
+        "details": "Model: GCR07 Blue 100% vegan PU artificial leather cover Fixed armrests with soft cushioning Top-notch rocking mechanism up to 15° Safety class 4 gas lif",
+        "image": "https://i.ibb.co/pv4bxFbw/gcr07-blue-1-500x500.jpg",
+        "category": "Gaming",
+        "menu": "",
+        "sunMenu": "",
+        "price": 17000,
+        "regular_price": 18100,
+        "status": "In Stock"
+    },
+    {
+        "name": "Marvo Scorpion CH-106 Adjustable Gaming Chair Red",
+        "details": "Model: Marvo CH-106 Stable and Sturdy Nylon Base Camber PVC 2D Armrest Butterfly Adjusting Mechanism 350 mm nylon base arms",
+        "image": "https://i.ibb.co/Csm71PFp/ch106-01-500x500.jpg",
+        "category": "Gaming",
+        "menu": "",
+        "sunMenu": "",
+        "price": 19000,
+        "regular_price": 20400,
+        "status": "In Stock"
+    },
+    {
+        "name": "MeeTion MT-CHR16 Cute Pink Racing E-Sport Gaming Chair",
+        "details": "Model: MT-CHR16 Curved neck support headrest 2D swivel armrest Support lumbar pillow Comfortable and free function",
+        "image": "https://i.ibb.co/zV1RP9L3/mt-chr16-01-500x500.jpg",
+        "category": "Gaming",
+        "menu": "",
+        "sunMenu": "",
+        "price": 25000,
+        "regular_price": 27500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Tenda W311MI AX300 Nano USB WiFi Adapter",
+        "details": "Model: W311MI Interfaces: USB2.0 Frequency: 2.4GHz Data Rate: 2.4GHz: Up to 286Mbps Wireless Modes: Station Mode, SoftAP Mode",
+        "image": "https://i.ibb.co/1h4vtFp/w311mi-ax300-01-500x500.webp",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 550,
+        "regular_price": 600,
+        "status": "In Stock"
+    },
+    {
+        "name": "Tenda F3 300mbps Wireless Router",
+        "details": "Model: F3 Frequency: 2.4 GHz3*5dBi external antennas 3 x LAN, 1 x WAN Port Support WISP, Universal Repeater, AP Mode",
+        "image": "https://i.ibb.co/9HML5K8T/tenda-f3-01-500x500.webp",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1350,
+        "regular_price": 1400,
+        "status": "In Stock"
+    },
+    {
+        "name": "Tenda AC5 AC1200 Dual-Band WiFi Router",
+        "details": "Model: Tenda AC5 4x 6dBi external high-gain antennas Frequency 2.4 GHz & 5 GHz Smart Sleeping Mode Smart LED on/off",
+        "image": "https://i.ibb.co/SDPBnmrj/ac5-001-500x500.png",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1950,
+        "regular_price": 2000,
+        "status": "In Stock"
+    },
+    {
+        "name": "Tenda AC10 AC1200 Dual Band Gigabit WiFi Router",
+        "details": "Model: AC10 4*6dBi External Dual-Band Antennas 5GHz: Up to 867Mbps 2.4GHz: Up to 300Mbps 1 x Wan + 3 x Lan full gigabit ports",
+        "image": "https://i.ibb.co/DDfdBmWx/b-201801191149275889-500x500.jpg",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 2950,
+        "regular_price": 3100,
+        "status": "In Stock"
+    },
+    {
+        "name": "TP-Link TL-WR841N 300Mbps Wireless Router",
+        "details": "Model: TP-Link TL-WR841N Speed: Up to 300Mbps Frequency: 2.4 Ghz Interface: 1 x WAN & 4 x LAN ports Features: WISP Mode, AP Mode, Range Extender Mode",
+        "image": "https://i.ibb.co/2Y8VmRT4/tl-wr841n-001-500x500.webp",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1650,
+        "regular_price": 1700,
+        "status": "In Stock"
+    },
+    {
+        "name": "Tp-link TL-WR845N 300Mbps Wireless Router",
+        "details": "Model: TL-WR845N Frequency: 2.4-2.4835GHz WiFi Speed: up to 300 Mbps 2.4 GHz Interface: 1 x LAN & 4 x WAN ports Feature: IPV6, Access Control, IP & MAC Binding",
+        "image": "https://i.ibb.co/67NL24KR/tl-wr845n-v4-01-500x500.webp",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 1850,
+        "regular_price": 1900,
+        "status": "In Stock"
+    },
+    {
+        "name": "TP-Link Archer C54 AC1200 Dual Band Wi-Fi Router",
+        "details": "Model: Archer C54 Multi-Mode 3-in-1, Compact and Mountable 4x antennas & Beamforming delivers IPv6 Supported, Parental Controls Coverage Area: Maximum 1200 sq ft to 1500 sq ft Area",
+        "image": "https://i.ibb.co/dJ3ZbsPq/archer-c54-01-500x500.jpg",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 2400,
+        "regular_price": 2450,
+        "status": "In Stock"
+    },
+    {
+        "name": "TP-Link Archer C6 AC1200 Gigabit Router",
+        "details": "Model: Archer C6 Frequency: 2.4GHz and 5GHz Data Transfer Rate (Wifi) - 1200 Mbps Power Supply: 12V/1A Coverage Area: 1500 to 2000 sq ft (Max)",
+        "image": "https://i.ibb.co/8ncK1Kg6/archer-c6-ac1200-5-500x500.jpg",
+        "category": "Router",
+        "menu": "",
+        "sunMenu": "",
+        "price": 3400,
+        "regular_price": 3500,
+        "status": "In Stock"
+    },
+    {
+        "name": "KSTAR 650VA Offline UPS",
+        "details": "Model: KSTAR 650VA LED Indicators Input Voltage: 230V Capacity: 650VA Frequency: 50 Hz",
+        "image": "https://i.ibb.co/xqLyFgkJ/650va-500x500.webp",
+        "category": "UPS",
+        "menu": "",
+        "sunMenu": "",
+        "price": 3350,
+        "regular_price": 3500,
+        "status": "In Stock"
+    },
+    {
+        "name": "Power Guard 650VA CS Offline UPS (Plastic Body)",
+        "details": "Model: 650VA CS Output Voltage (V): 220/230 VAC +/-10% Frequency (Hz - KHz): 50/60Hz +/-5% Input Voltage (V): 145-280V Load Capacity: 390W",
+        "image": "https://i.ibb.co/1G3Vv73H/Offline-UPS-cs-001-500x500.jpg",
+        "category": "UPS",
+        "menu": "",
+        "sunMenu": "",
+        "price": 3400,
+        "regular_price": 3550,
+        "status": "In Stock"
+    },
+    {
+        "name": "APOLLO 1120F/1120 1200VA Offline UPS",
+        "details": "Model: 1120F Load Capacity: 1200VA Transfer Time: 2ms typical; 5ms maximum Waveform: PWM Simulated Sine wave 2 x Lead-Acid maintenance-free battery",
+        "image": "https://i.ibb.co/YqBKmHb/1120f-01-500x500.jpg",
+        "category": "UPS",
+        "menu": "",
+        "sunMenu": "",
+        "price": 6850,
+        "regular_price": 7150,
+        "status": "In Stock"
+    },
+    {
+        "name": "KSTAR HP930CH 3KVA Long Backup Online UPS",
+        "details": "Model: HP930CH Capacity: 3KVA Load Capacity: 2100W Voltage Range: 200-240V AC Output Voltage (V): 200/208/220/230/240V AC",
+        "image": "https://i.ibb.co/Rp6HzwK4/hp930ch-01-500x500.webp",
+        "category": "UPS",
+        "menu": "",
+        "sunMenu": "",
+        "price": 31000,
+        "regular_price": 31500,
+        "status": "In Stock"
     }
 ]

@@ -1,0 +1,24 @@
+[
+     {
+        "category": "PC Components",
+        "brand": "Processor",
+        "menu": "Inter",
+        "sunMenu": "",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Mother_board",
+        "menu": "Inter",
+        "sunMenu": "",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Ram",
+        "menu": "AMD",
+        "sunMenu": "",
+        "img": ""
+    }
+    
+]

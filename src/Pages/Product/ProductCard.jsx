@@ -1,7 +1,7 @@
 import React from 'react';
-import { HiOutlineShoppingCart } from "react-icons/hi";
 import { Link } from 'react-router-dom';
 import './ProductCard.css'
+
 
 const ProductCard = ({ product }) => {
     const { name, details, image, price, _id } = product;
@@ -36,9 +36,9 @@ const ProductCard = ({ product }) => {
         //     </div >
         // </div >
 
-        <div className="card card-compact shadow-xl w-82 bg-base-200 border cardBody">
+        <div className="card card-compact shadow-xl w-82  border cardBody">
           
-            <figure className="imgBody">
+            <figure className="imgBody shadow-sm">
                 <img className='h-64 w-full' src={image} alt="Shoes" />
             </figure>
             <div className="card-body">
@@ -46,8 +46,13 @@ const ProductCard = ({ product }) => {
                 <p>{ details? details?.slice(0, 60) : 'no details'}...</p>
                 <h3 className="text-xl text-[#3749bb] font-semibold">Price: {price}<span className="font-extrabold">৳</span> </h3>
                 <Link to={`/product/${_id}`}>
-                    <div className="card-actions ">
-                        <button title={`More details about ${name}`} className="py-3 font-semibold  border rounded-md  bg-slate-300 w-full">
+
+{/* hover:bg-[#3749bb] hover:text-white border rounded-md text-[#3749bb] bg-[#d5d8ec] w-full  */}
+                   <div className="card-actions ">
+                        <button title={`More details about ${name}`} 
+                        className="py-3 font-semibold bg-[#DFE7F6]
+                        hover:bg-[#3749bb] hover:text-white border rounded-md text-[#3749bb]  w-full 
+                        ">
                             More details
                         </button>
                     </div>

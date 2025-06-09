@@ -5,7 +5,9 @@ import ErrorPage from "../Shares/ErrorPage/ErrorPage";
 import CategoryCard from "../Pages/Category/CategoryCard";
 import ProductDetails from "../Pages/Product/ProductDetails";
 import About from "../Pages/HomePages/About/About";
-import Shop from "../Pages/Shop/Shop";
+import ProductBrand from "../Shares/ProductBrand/ProductBrand";
+import Product from "../Pages/Product/Product";
+import Shop from "../Others/Shop/Shop";
 
 export const router = createBrowserRouter([
     {
@@ -19,16 +21,21 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/shop',
-                element: <Shop />
+                 loader: () =>fetch(`products.json`),
+                element: <Shop/>
             },
             {
                 path: '/aboutUs',
                 element: <About />
             },
             // {
-            //     path: '/cart',
-            //     element: <Car />
+            //     path: '/productBrand ',
+            //     element: <ProductBrand />
             // },
+            {
+                path: '/products',
+                element: <Product />
+            },
             {
                 path: '/products/:category',
                 loader: ({params}) =>fetch(`https://ti-server-git-main-salmatonkas-projects.vercel.app/products/${params?.category}`),

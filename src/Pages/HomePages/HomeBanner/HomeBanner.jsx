@@ -5,7 +5,7 @@ import slider3Img from '../../../assets/home/slider3.jpg';
 import slider4Img from '../../../assets/home/slider4.webp';
 const HomeBanner = () => {
     return (
-        <div>
+        <div className=''>
             <div className="carousel h-[421px] w-full">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img

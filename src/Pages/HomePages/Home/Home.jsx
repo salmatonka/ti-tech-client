@@ -2,16 +2,19 @@ import React from 'react';
 import HeadLine from '../HeadLine/HeadLine';
 import HomeBanner from '../HomeBanner/HomeBanner';
 import DiscountOffer from '../DiscountOffer/DiscountOffer';
-import About from '../About/About';
 import Category from '../../Category/Category';
 import './Home.css';
 import Product from '../../Product/Product';
+import MenuSection from '../../../Others/MenuSection/MenuSection';
+import DropDownMenu from '../../../Others/DropDownMenu/DropDownMenu';
 const Home = () => {
     return (
-        <div className='bg-gray-100 pt-1 px-4 '>
-            <HeadLine />
-            <div >
-                <div className="home-container">
+        <div className='bg-gray-100'>
+            {/* <HeadLine /> */}
+            <MenuSection className='' />
+            {/* <DropDownMenu /> */}
+            <div className='pt-1 max-w-screen-xl mx-auto' >
+                <div className="home-container ">
                     <div className='left-side'>
                         <HomeBanner />
                     </div>
@@ -21,9 +24,11 @@ const Home = () => {
                 </div>
             </div>
 
-            <Product />
-            <DiscountOffer />
-            {/* <About /> */}
+            <div>
+                <Product />
+                <DiscountOffer />
+                {/* <About /> */}
+            </div>
         </div>
     );
 };

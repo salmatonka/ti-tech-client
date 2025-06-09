@@ -1,0 +1,227 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #008236;
+    height: 80px;
+    width: 100%;
+}
+.p{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background: #1b9bff;
+    transition: 0.5s;
+}
+.chectbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:952px) {
+    .p{
+font-size: 30px;
+padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width:858px) {
+    .chectbtn{
+display: block;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #008236;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: #1b9bff;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+ */
+
+
+/* ......................... */
+
+
+/* .............................. */
+
+
+header {
+    position: sticky;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    /* background-color: #1F294E;
+    color: #fff; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #333;
+}
+
+header .navber ul {
+    list-style: none;
+}
+
+header .navber ul li {
+    position: relative;
+    float: left;
+}
+
+header .navber ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+
+header .navber ul li a:hover {
+    background: #333;
+    color: #fff;
+}
+
+header .navber ul li ul {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    /* width: 200px; */
+    background: #fff;
+    display: none;
+}
+
+header .navber ul li ul li {
+    /* width: 100%; */
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .navber ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+header .navber ul li:focus-within>ul,
+header .navber ul li:hover>ul {
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 20px;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .navber {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        /* background: #ffffff; */
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    header .navber ul li {
+        width: 100%;
+    }
+
+    header .navber ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navber ul li ul li {
+        background: #eee;
+    }
+
+    header .navber ul li ul li ul {
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked~.navber {
+        display: initial;
+    }
+
+
+
+}

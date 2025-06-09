@@ -1,0 +1,121 @@
+/* .............................. */
+/* .menu-section  {
+  background: #1F294E;
+  box-shadow:  0 5px 10px rgba(0,0,0,0.1);
+  /* position: fixed; 
+  /* z-index: 1000; 
+  top: 0; left: 0; right: 0;
+  display: flex;
+} */
+
+.menu-section ul {
+  background-color: #1F294E;
+  color: white;
+  padding-left: 80px;
+
+}
+
+.menu-section ul li {
+  display: inline-block;
+  padding: 12px;
+}
+
+.menu-section ul li:hover {
+  color: #E5330B;
+}
+
+.menu-section .menu-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.menu-section ul li:hover .menu-dropdown {
+  display: block;
+  position: absolute;
+  margin-left: -0.29cm;
+  margin-top: 0.27cm;
+}
+
+.menu-section .menu-dropdown ul {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  width: 150px;
+  border-left: 2px solid #1F294E;
+  box-shadow: 0 5px 5px rgba(0, 0, 0.1);
+}
+
+.menu-section .menu-dropdown ul li {
+  display: block;
+}
+
+.menu-section .menu-dropdown ul li:hover {
+  margin-top: 3px;
+  background-color: #1F294E;
+  color: #fff;
+}
+
+.menu-section .menu-dropdown2 {
+  display: none;
+}
+
+.menu-section .menu-dropdown ul li:hover .menu-dropdown2 {
+  display: block;
+  position: absolute;
+  margin-left: 3.6cm;
+  margin-top: -0.9cm;
+  background-color: #fff;
+}
+
+/* grid menu pc */
+.menu-section .menu-dropdown2 .grid-menu {
+  width: 300px;
+}
+
+.menu-section .menu-dropdown2 ul li:hover {
+  margin-top: 3px;
+}
+
+.menu-section .menu-dropdown3 {
+  display: none;
+}
+
+.menu-section .menu-dropdown2 ul li:hover .menu-dropdown3 {
+  display: block;
+  position: absolute;
+  margin-left: 3.6cm;
+  margin-top: -0.90cm;
+  background-color: #fff;
+}
+
+.menu-section .menu-dropdown4 {
+  display: none;
+  margin-top: 3px;
+}
+
+.menu-section .menu-dropdown2 ul li:hover .menu-dropdown3 ul li:hover .menu-dropdown4 {
+  display: block;
+  position: absolute;
+  background: #fff;
+  color: #000;
+  margin-left: 3.6cm;
+  margin-top: -0.90cm;
+  width: 150px;
+}
+
+@media (max-width:991px) {
+  .menu-section ul {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .menu-section .menu-dropdown ul li ul {
+    position: relative;
+    width: 100%
+  }
+
+}

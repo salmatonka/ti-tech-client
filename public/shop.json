@@ -1,0 +1,927 @@
+[
+    {
+        "category": "Desktop",
+        "brand": "AMD Desktop PC ",
+        "brandImg": "https://trusttechspace.blr1.cdn.digitaloceanspaces.com/media/2ui2ezxwjC2ADSXlXVYiBa6Pmnzn4VlLTZhp7kic.png",
+        "name": "Intel Core i7 7th Generation Processor ",
+        "details": "The Intel Core i7-7700 Seven Generation Processor provides a Base Frequency of 3.60 GHz and 8 MB Intel Smart & good Cache. it's Four cores and Eight threads Supported.",
+        "image": "https://www.gvsbd.com/wp-content/uploads/2021/12/Intel-Core-i7-8700K-Processor.jpeg.webp",
+        "price": 9500,
+        "regular_price": 17500,
+        "status": "In Stock"
+    },
+    {
+        "category": "Desktop",
+        "brand": "Inter Desktop PC",
+        "menu": "",
+        "sunMenu": "",
+        "brandImg": "https://trusttechspace.blr1.cdn.digitaloceanspaces.com/media/2ui2ezxwjC2ADSXlXVYiBa6Pmnzn4VlLTZhp7kic.png",
+        "name": "Intel Core i7 7th Generation Processor ",
+        "details": "The Intel Core i7-7700 Seven Generation Processor provides a Base Frequency of 3.60 GHz and 8 MB Intel Smart & good Cache. it's Four cores and Eight threads Supported.",
+        "image": "https://www.gvsbd.com/wp-content/uploads/2021/12/Intel-Core-i7-8700K-Processor.jpeg.webp",
+        "price": 9500,
+        "regular_price": 17500,
+        "status": "In Stock"
+    },
+    {
+        "category": "Laptop",
+        
+        "brand": "AMD",
+        "menu": "",
+        "sunMenu": "",
+        "img": ""
+    },
+    {
+        "category": "Laptop",
+        "brand": "Acer",
+        "menu": "",
+        "sunMenu": "",
+        "img": ""
+    },
+    {
+        "category": "Laptop",
+        "brand": "Lenovo",
+        "img": ""
+    },
+    {
+        "category": "Laptop",
+        "brand": "Dell",
+        "img": ""
+    },
+    {
+        "category": "Laptop",
+        "brand": "MSI",
+        "img": ""
+    },
+    {
+        "category": "Laptop",
+        "brand": "Gigabyte",
+        "img": ""
+    },
+    {
+        "category": "Laptop",
+        "brand": "Huawei",
+        "img": ""
+    },
+    {
+        "category": "Laptop",
+        "brand": "Chuwi",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Processor",
+        "menu": "Intel",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "menu": "Intela",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "menu": "AMD",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "menu": "interc",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "menu": "AMDc",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Mother_board",
+        "menu": "AMDa",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Ram",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "SSD",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Hard_Disk",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Graphics_card",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Casing",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Power_Supply",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "CPU_Cooler",
+        "img": ""
+    },
+    {
+        "category": "PC Components",
+        "brand": "Casing_Cooler_fan",
+        "img": ""
+    },
+    {
+        "category": "Matherboard",
+        "brand": "AMD",
+        "img": ""
+    },
+    {
+        "category": "Matherboard",
+        "brand": "Inter",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Corsair",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "PNY",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Twinmons",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "G.Skill",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Adata",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Gigabyte",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Thermaltake_Ram",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Transcend",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "team",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Geil",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "AITC",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Apacer",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Patriot",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Kingston",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "Ramsta",
+        "img": ""
+    },
+    {
+        "category": "RAM",
+        "brand": "OCPC",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Corsair",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Samsung",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Twinmons",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Adata",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Apacer",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Western_Digital",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Kingsman",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Transcend",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Gigabyte",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "PNY",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Ramsta",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "MSI",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Team",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "HP",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Inter",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "Kingston",
+        "img": ""
+    },
+    {
+        "category": "SSD",
+        "brand": "KingSpec",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Antec",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Gigabyte",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Corsair",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Thermaltake",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Golden_Field",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Gamdias",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Gamermax",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "MSI",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Cooler_Master",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Safe_Way",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Xtreme",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "OVO",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Delux",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Value_Top",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Asus",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Montech",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Cooler_Master",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Couger",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Max_Green",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "DeepCool",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "View_One",
+        "img": ""
+    },
+    {
+        "category": "Casing",
+        "brand": "Redragon",
+        "img": ""
+    },
+    {
+        "category": "Hard_Disk",
+        "brand": "Toshiba",
+        "img": ""
+    },
+    {
+        "category": "Hard_Disk",
+        "brand": "Western_Digital",
+        "img": ""
+    },
+    {
+        "category": "Hard_Disk",
+        "brand": "Seagate",
+        "img": ""
+    },
+    {
+        "category": "Hard_Disk",
+        "brand": "Transcend",
+        "img": ""
+    },
+    {
+        "category": "Processor",
+        "brand": "AMD",
+        "img": ""
+    },
+    {
+        "category": "Processor",
+        "brand": "Inter",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "HP",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "Asus",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "Msi",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "Dell",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "Samsung",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "Acer",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "Lenovo",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "Huawei",
+        "img": ""
+    },
+    {
+        "category": "Monitor",
+        "brand": "XIAOMI",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "Gigabyte",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "MSI",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "Zotac",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "Asus",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "Colorful",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "Sapphire",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "PNY",
+        "img": ""
+    },
+    {
+        "category": "Graphics Card",
+        "brand": "Inter",
+        "img": ""
+    },
+    {
+        "category": "Graphics_Card",
+        "brand": "",
+        "img": ""
+    },
+    {
+        "category": "Power_Supply",
+        "brand": "Corsair",
+        "img": ""
+    },
+    {
+        "category": "Power_Supply",
+        "brand": "Gigabyte",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Antec",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Thermaltake",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "MSI",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Value_Top",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Asus",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Golden_Field",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Gamdias",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Cooler_Master",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "DeepCool",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "Safe_Way",
+        "img": ""
+    },
+    {
+        "category": "Power Supply",
+        "brand": "1STPLAYER",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Corsair",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "DeepCool",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Cooler_Master",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Thermaltake",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Antec",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "MSI",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Gigabyte",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Kingsman",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "DarkFlash",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Aigo",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "Gamdias",
+        "img": ""
+    },
+    {
+        "category": "CPU_Cooler",
+        "brand": "1STPLAYER",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "Fantech",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "Cooler_Master",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "Corsair",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "Antec",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "Thermaltake",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "Gamdias",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "DeepCool",
+        "img": ""
+    },
+    {
+        "category": "Casing_Cooler_Fan",
+        "brand": "DarkFlash",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Mouse",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Keyboard",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Mouse_Pad",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Laptop_Cooler",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Laptop_Bag",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Monitor_Stand",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Headphone",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Power_Bank",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Power_Strip",
+        "img": ""
+    },
+    {
+        "category": "Accessories",
+        "brand": "Megaphones",
+        "img": ""
+    },
+    {
+        "category": "Office Equipment",
+        "brand": "Scanner",
+        "img": ""
+    },
+    {
+        "category": "Office Equipment",
+        "brand": "Projector",
+        "img": ""
+    },
+    {
+        "category": "Printer",
+        "brand": "Brother",
+        "img": ""
+    },
+    {
+        "category": "Printer",
+        "brand": "HP",
+        "img": ""
+    },
+    {
+        "category": "Printer",
+        "brand": "Canon",
+        "img": ""
+    },
+    {
+        "category": "Printer",
+        "brand": "Epson",
+        "img": ""
+    },
+    {
+        "category": "Printer",
+        "brand": "Pantum",
+        "img": ""
+    },
+    {
+        "category": "Storage",
+        "brand": "External HDD",
+        "img": ""
+    },
+    {
+        "category": "Storage",
+        "brand": "External SSD",
+        "img": ""
+    },
+    {
+        "category": "Storage",
+        "brand": "Pen Drive",
+        "img": ""
+    },
+    {
+        "category": "UPS",
+        "brand": "Apollo",
+        "img": ""
+    },
+    {
+        "category": "UPS",
+        "brand": "Power Guard",
+        "img": ""
+    },
+    {
+        "category": "UPS",
+        "brand": "Power Pac",
+        "img": ""
+    },
+    {
+        "category": "UPS",
+        "brand": "KSTAR",
+        "img": ""
+    },
+    {
+        "category": "UPS",
+        "brand": "Prolink",
+        "img": ""
+    },
+    {
+        "category": "UPS",
+        "brand": "MaxGreen",
+        "img": ""
+    },
+    {
+        "category": "UPS",
+        "brand": "Digital X",
+        "img": ""
+    },
+    {
+        "category": "Speaker",
+        "brand": "Logitech",
+        "img": ""
+    },
+    {
+        "category": "Speaker",
+        "brand": "Edifier",
+        "img": ""
+    },
+    {
+        "category": "Speaker",
+        "brand": "Fantech",
+        "img": ""
+    },
+    {
+        "category": "S",
+        "brand": "F&D",
+        "img": ""
+    },
+    {
+        "category": "Speaker",
+        "brand": "Microlab",
+        "img": ""
+    },
+    {
+        "category": "Speaker",
+        "brand": "Xtreme",
+        "img": ""
+    },
+    {
+        "category": "Speaker",
+        "brand": "PC Power",
+        "img": ""
+    },
+    {
+        "category": "Networking",
+        "brand": "Router",
+        "children": [
+            {
+                "menu": "1",
+                "subMenu": "Lap"
+            },
+            {
+                "menu": "2",
+                "subMenu": "Lap2"
+            },
+            {
+                "menu": "3",
+                "subMenu": "Lap3"
+            }
+        ],
+        "img": ""
+    },
+    {
+        "category": "Software",
+        "brand": "ESET",
+        "img": ""
+    },
+    {
+        "category": "Software",
+        "brand": "Bitdefender",
+        "img": ""
+    },
+    {
+        "category": "Software",
+        "brand": "Kaspersky",
+        "img": ""
+    },
+    {
+        "category": "Software",
+        "brand": "Norton",
+        "img": ""
+    }
+]
