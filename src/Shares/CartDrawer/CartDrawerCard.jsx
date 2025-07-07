@@ -14,7 +14,7 @@ const CartDrawerCard = () => {
         const proceed = window.confirm('Sure to delete this booking!');
         if (proceed) {
             fetch(`https://ti-server-585b.onrender.com/carts/${id}`, {
-                mode: 'no-cors',
+                // mode: 'no-cors',
                 method: 'DELETE',
                 headers: {
                     authorization: `bearer ${localStorage.getItem('accessToken')}`
