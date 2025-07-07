@@ -15,17 +15,12 @@ import casingImg from '../../assets/icon/pc.png';
 import accessoriesImg from '../../assets/icon/mouse.png';
 import routerImg from '../../assets/icon/wifi-router.png';
 import upsImg from '../../assets/icon/ppp01.png';
-import ProductCard from '../Product/ProductCard';
+import ProductCard from '../ProductCard/ProductCard';
 
 
 const CategoryCard = () => {
     const products = useLoaderData()
     // console.log(categoryProducts);
-
-
-
-
-
 
     return (
         <div className='px-2 py-28 '>

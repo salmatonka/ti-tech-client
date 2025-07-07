@@ -1,0 +1,100 @@
+/* ............single drop.... */
+.navber1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1b1b1b;
+    width: 400px;
+    line-height: 40px;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.navber1 label {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    cursor: pointer;
+}
+
+.navber1 .button span {
+    float: right;
+    line-height: 35px;
+}
+
+.navber1 ul {
+    position: absolute;
+    background: #1b1b1b;
+    list-style: none;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    /* display: block; */
+    display: none;
+}
+[id^=btn]:checked + ul{
+    display: block;
+}
+.navber1 .menu::before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    /* background: red; */
+    background: #1b1b1b;
+    right: 20px;
+    top: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.navber1 ul li {
+    line-height: 40px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navber1 ul li label {
+    font-size: 18px;
+}
+
+.navber1 ul li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navber1 ul li a:hover,
+.navber1 ul li label:hover {
+    color: cyan;
+}
+
+.navber1 ul ul {
+    position: static;
+}
+
+.navber1 ul ul li {
+    line-height: 30px;
+    padding-left: 30px;
+    border-bottom: none;
+}
+
+.navber1 ul ul li a {
+    color: #e6e6e6;
+    font-size: 17px;
+}
+
+.navber1 ul li span {
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.navber1 input{
+    display: none;
+}

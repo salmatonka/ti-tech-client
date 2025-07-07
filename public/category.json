@@ -1,6 +1,16 @@
 [
-     {
+    {
         "category": "PC Components",
+        "categoryPc": [
+            {
+                "title": "Amd Desktop PC",
+                "img": "https://trusttechspace.blr1.cdn.digitaloceanspaces.com/media/2ui2ezxwjC2ADSXlXVYiBa6Pmnzn4VlLTZhp7kic.png"
+            },
+            {
+                "title": "Inter Desktop PC",
+                "img": "https://trusttechspace.blr1.cdn.digitaloceanspaces.com/media/2ui2ezxwjC2ADSXlXVYiBa6Pmnzn4VlLTZhp7kic.png"
+            } 
+        ],
         "brand": "Processor",
         "menu": "Inter",
         "sunMenu": "",
@@ -20,5 +30,4 @@
         "sunMenu": "",
         "img": ""
     }
-    
 ]
