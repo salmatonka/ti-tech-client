@@ -38,7 +38,7 @@ const RonNav = () => {
     <div className='sticky top-0 z-50'>
       <div className="nav  bg-primary text-black shadow-sm">
         <Link to="/" className="logo flex justify-between items-center">
-          <img src={logo} alt="img" className='h-10 w-10 ' />
+          {/* <img src={logo} alt="img" className='h-10 w-10 ' /> */}
           TI Tech
         </Link>
         {/* <div className="logo "></div> */}
