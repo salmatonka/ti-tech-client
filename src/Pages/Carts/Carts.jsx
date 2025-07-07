@@ -2,16 +2,18 @@ import React from 'react'
 import useCart from '../../hooks/useCart';
 import { Link } from 'react-router-dom';
 import { FaTrashAlt } from "react-icons/fa";
+import { toast } from 'react-toastify';
 const Carts = () => {
     const [cart, refetch] = useCart();
-    const totalPrice = cart.reduce((total, item) => total + Number(item.price), 0);
-  
+    console.log(cart)
+    // const totalPrice = cart.reduce((total, item) => total + Number(item?.price), 0);
+   const totalPrice = cart.reduce((total, item) => total + Number(item.regular_price), 0);
     const handleDelete = id => {
 
         const proceed = window.confirm('Sure to delete this booking!');
         if (proceed) {
             fetch(`https://ti-server-585b.onrender.com/carts/${id}`, {
-                mode: 'no-cors',
+                // mode: 'no-cors',
                 method: 'DELETE',
                 headers: {
                     authorization: `bearer ${localStorage.getItem('accessToken')}`
@@ -61,18 +63,18 @@ const Carts = () => {
                                     <div className="flex items-center gap-3">
                                         <div className="avatar">
                                             <div className="mask mask-squircle w-12 h-12">
-                                                <img src={item.image} alt="Avatar Tailwind CSS Component" />
+                                                <img src={item?.image} alt="Avatar Tailwind CSS Component" />
                                             </div>
                                         </div>
                                     </div>
                                 </td>
                                 <td>
-                                    {item.name}
+                                    {item?.name}
                                 </td>
-                                <td>${item.price}</td>
+                                <td>${item?.price}</td>
                                 <th>
                                     <button
-                                        onClick={() => handleDelete(item._id)}
+                                        onClick={() => handleDelete(item?._id)}
                                         className="btn btn-ghost btn-lg">
                                         <FaTrashAlt className="text-red-600"></FaTrashAlt>
                                     </button>
