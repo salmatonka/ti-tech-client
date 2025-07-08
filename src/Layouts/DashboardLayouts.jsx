@@ -40,7 +40,8 @@ const DashboardLayouts = () => {
             <div className="drawer-content flex flex-col">
 
                 {/* Navbar */}
-                <div className="navbar bg-base-300 w-full lg:hidden">
+                <div className="navbarw-full lg:hidden">
+                        {/* <div className="mx-2 flex justify-end items-center px-2 lg:hidden">Dashboard</div> */}
                     <div className="flex-none ">
                         <label htmlFor="my-drawer-2" aria-label="open sidebar" className="btn btn-square btn-ghost">
                             <svg
@@ -57,8 +58,8 @@ const DashboardLayouts = () => {
                                 ></path>
                             </svg>
                         </label>
+                    
                     </div>
-                    <div className="mx-2 flex-1 px-2 lg:hidden">Dashboard</div>
 
                 </div>
                 {/* Page content here */}
@@ -68,7 +69,7 @@ const DashboardLayouts = () => {
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                <ul className="menu border-r-2 shadow-md text-base-content min-h-full w-72 p-4">
+                <ul className="menu bg-white border-r-2 shadow-lg text-base-content min-h-full w-72 p-4">
                     {/* Sidebar content here */}
 
                     <li>
