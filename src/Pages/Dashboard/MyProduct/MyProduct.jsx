@@ -73,7 +73,7 @@ const MyProduct = () => {
                             </td>
                             <td>{myProduct?.name}</td>
                             <td>{myProduct?.price}</td>
-                            <td>{myProduct?.yearUsed}</td>
+                            {/* <td>{myProduct?.yearUsed}</td> */}
                             <td>
                              <Link 
                              to={`/dashboard/editProduct/${myProduct?._id}`}>

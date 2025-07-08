@@ -20,7 +20,7 @@ const Supports = () => {
                             <MdMonitor className='border border-gray-500 bg-secondary text-gray-200 w-12 h-12 p-2 rounded-full' />
                         </div>
                             <div>
-                                <h2 className='font-semibold'>Monitor Finter</h2>
+                                <h2 className='font-semibold'>Monitor Filter</h2>
                                 <p className='text-sm'>Find Your Monitor easily</p>
                             </div>
                         </Link>

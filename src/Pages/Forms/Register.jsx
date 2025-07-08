@@ -98,7 +98,7 @@ const Register = () => {
             <div>
               <label className="label text-sm">Register As:</label>
               <select {...register("role", { required: 'Role is required' })} className="select select-bordered w-full text-sm">
-                <option value="admin">Admin</option>
+                {/* <option value="admin">Admin</option> */}
                 <option value="buyer">Buyer</option>
                 <option value="seller">Seller</option>
               </select>

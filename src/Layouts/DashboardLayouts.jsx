@@ -125,10 +125,10 @@ const DashboardLayouts = () => {
                                         {" "}
                                         <Link to="/dashboard/myProduct">My Products</Link>{" "}
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         {" "}
                                         <Link to="/dashboard/editProduct">Edit Product</Link>{" "}
-                                    </li>
+                                    </li> */}
                                     <li>
                                         {" "}
                                         <button onClick={handleLogout} aria-label="Logout"
