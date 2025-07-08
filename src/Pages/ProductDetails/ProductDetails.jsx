@@ -7,9 +7,10 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { AuthContext } from "../../provider/AuthProvider";
 import { toast } from "react-toastify";
 import axios from 'axios';
+import useCart from "../../hooks/useCart";
 const ProductDetails = () => {
     const products = useLoaderData();
-    const { name, details, image, price, status, regular_price, category } = products;
+    const { _id,name, details, image, price, status, regular_price, category } = products;
     const { user } = useContext(AuthContext)
     const navigate = useNavigate();
     const handleProductBooking = event => {
@@ -74,6 +75,44 @@ const ProductDetails = () => {
 
             )
     }
+
+    const [, refetch] = useCart();
+
+    const handleAddToCart = () => {
+        if (user && user.email) {
+            //send cart item to the database
+            const cartItem = {
+                serviceId: _id,
+                email: user.email,
+                name,
+                image,
+                price, regular_price,
+                // rating
+            }
+
+
+            fetch('https://ti-server-585b.onrender.com/carts', {
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(cartItem)
+            })
+                .then(res => res.json())
+                .then(data => {
+                    // console.log(data);
+                    // if (loading) {
+                    //     return <Spinner />
+                    // }
+                    toast.success('Product Added Successfully!');
+                    navigate('/carts');
+
+
+
+                })
+        }
+    }
+
 
     return (
 
@@ -143,14 +182,15 @@ const ProductDetails = () => {
                                          justify-center items-center text-white mt-3">
                                         Buy Now <FaLongArrowAltRight className='mt-1 ml-3s' /></label>
 
-                                    <div>
-                                        <Link
-                                            className="bg-secondary hover: rounded-sm w-52 flex 
+                                    <div
+                                        onClick={handleAddToCart}
+                                        className="bg-secondary hover: rounded-sm w-52 flex
                                         justify-center items-center  py-3  text-white mt-3"
-                                            to='/dashboard/addProduct'><button className="flex 
+                                          >
+                                        <button className="flex 
                                         items-center gap-4">
-                                                <BsCart3 />Add To Cart</button>
-                                        </Link>
+                                        Add To Cart <FaArrowRight /> </button>
+
                                     </div>
                                     <div>
                                         <Link
