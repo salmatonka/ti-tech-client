@@ -71,7 +71,7 @@ const DashboardHome = () => {
       </div>
 
 
-      <div className='bg-white shadow-md  p-4 px-8'>
+      <div className='bg-white shadow-md  p-4 lg:px-8 px-2'>
         <div className='flex items-center gap-4 py-8'>
           <div className="avatar">
             <div className="ring-primary ring-offset-base-100 w-20 rounded-full ring-2 ring-offset-2">
@@ -87,101 +87,99 @@ const DashboardHome = () => {
         <div className='py-5'>
           <h6 className='text-lg font-bold'>Basic Info</h6>
         </div>
-
+{/* info  */}
         <div>
           <div className='grid-main-container '>
-            <div className='left-side1'>
+            <div className='left-side'>
               <div className='grid-left border border-r'>
                 <div className='bg-dashInfo border-r'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>Email </h6>
+                    <h6 className='pl-2'>Email </h6>
                   </div>
                   <div className='border-gray-300 py-2'>
-                    <h6 className='pl-4'>Date of Bith </h6>
+                    <h6 className='pl-2'>Bithday </h6>
                   </div>
 
                 </div>
-                <div className='right-side1'>
+                <div className='right-side'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>{user?.email}</h6>
+                    <h6 className='pl-2 '>{user?.email}</h6>
                   </div>
-                  <div className='border-gray-300 '>
-                    <h6 className='pl-4'>11/01/2011</h6>
+                  <div className='border-gray-300 py-2'>
+                    <h6 className='pl-2'>11/01/2011</h6>
                   </div>
                 </div>
               </div>
             </div>
-            <div className='left-side2'>
+            <div className='left-side'>
               <div className='grid-left border border-r'>
                 <div className='bg-dashInfo border-r'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>Phone</h6>
+                    <h6 className='pl-2'>Phone</h6>
                   </div>
                   <div className='border-gray-300 py-2'>
-                    <h6 className='pl-4'>Gender</h6>
+                    <h6 className='pl-2'>Gender</h6>
                   </div>
 
                 </div>
-                <div className='right-side1'>
+                <div className='right-side'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>+88 01911111111</h6>
+                    <h6 className='pl-2'>+88 01911111111</h6>
                   </div>
-                  <div className='border-gray-300 '>
-                    <h6 className='pl-4'>gender</h6>
+                  <div className='border-gray-300 py-2'>
+                    <h6 className='pl-2'>gender</h6>
                   </div>
                 </div>
               </div>
             </div>
-
-
           </div>
-        </div>
+        </div> 
 
         {/* address  */}
 
         <div className='address-container'>
           <div className='py-5'>
-            <h6 className='text-lg font-bold'>Adress</h6>
+            <h6 className='text-lg font-bold'>Address</h6>
           </div>
           <div className='grid-main-container '>
-            <div className='left-side1'>
+            <div className='left-side'>
               <div className='grid-left border border-r'>
                 <div className='bg-dashInfo border-r'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>Street</h6>
+                    <h6 className='pl-2'>Street</h6>
                   </div>
                   <div className='border-gray-300 '>
-                    <h6 className='pl-4'>State</h6>
+                    <h6 className='pl-2'>State</h6>
                   </div>
 
                 </div>
-                <div className='right-side1'>
+                <div className='right-side'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>Dhaka,Bangladesh</h6>
+                    <h6 className='pl-2'>Dhaka,Bangladesh</h6>
                   </div>
                   <div className='border-gray-300 '>
-                    <h6 className='pl-4 py-2'>Dhaka</h6>
+                    <h6 className='pl-2 py-2'>Dhaka</h6>
                   </div>
                 </div>
               </div>
             </div>
-            <div className='left-side2'>
+            <div className='left-side'>
               <div className='grid-left border border-r'>
                 <div className='bg-dashInfo border-r'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>City</h6>
+                    <h6 className='pl-2'>City</h6>
                   </div>
                   <div className='border-gray-300 py-2'>
-                    <h6 className='pl-4'>Country</h6>
+                    <h6 className='pl-2'>Country</h6>
                   </div>
 
                 </div>
-                <div className='right-side1'>
+                <div className='right-side'>
                   <div className=' border-gray-300 border-b py-2'>
-                    <h6 className='pl-4'>Narayanganj</h6>
+                    <h6 className='pl-2'>Narayanganj</h6>
                   </div>
                   <div className='border-gray-300 py-2'>
-                    <h6 className='pl-4'>Bangladesh</h6>
+                    <h6 className='pl-2'>Bangladesh</h6>
                   </div>
                 </div>
               </div>
