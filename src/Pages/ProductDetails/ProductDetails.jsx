@@ -1,7 +1,7 @@
 import { Link, useLoaderData, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import './ProductDetails.css';
-import { FaHome } from "react-icons/fa";
+import { FaArrowRight, FaHome } from "react-icons/fa";
 import { BsCart3 } from "react-icons/bs";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { AuthContext } from "../../provider/AuthProvider";
