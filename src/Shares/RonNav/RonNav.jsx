@@ -9,8 +9,13 @@ import useCart from '../../hooks/useCart';
 import CartDrawer from '../CartDrawer/CartDrawer';
 import NavDrawerCart from '../../Others/NavDrawerCart/NavDrawerCart';
 import { useQuery } from '@tanstack/react-query';
-import { toast } from 'react-toastify'
-const RonNav = () => {
+import { toast } from 'react-toastify';
+import { MdLightMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
+// import darkimg from "../../assets/dark-mode/dark.png";
+// import lightimg from "../../assets/dark-mode/light.png";
+
+const RonNav = ({ setDarkMode, darkMode }) => {
   const { user, logout } = useContext(AuthContext);
   const navigate = useNavigate();
 
@@ -18,9 +23,9 @@ const RonNav = () => {
     logout()
       .then(toast.warning('user logOut...!'))
       .catch(error => toast.error(error.message))
-      navigate('/')
+    navigate('/')
   };
-  
+
   const { data: currentUser = {} } = useQuery({
     queryKey: ["user", user],
     queryFn: async () => {
@@ -36,13 +41,13 @@ const RonNav = () => {
 
   return (
     <div className='sticky top-0 z-50'>
-      <div className="nav  bg-primary text-black shadow-sm">
+      <div className="nav dark:bg-[#120505] dark:text-white  bg-primary shadow-sm">
         <Link to="/" className="logo flex justify-between items-center">
           {/* <img src={logo} alt="img" className='h-10 w-10 ' /> */}
           TI Tech
         </Link>
         {/* <div className="logo "></div> */}
-        <label htmlFor="btn" className='icon'>
+        <label htmlFor="btn" className='icon dark:text-white'>
           <HiOutlineBars4 />
         </label>
         <input type="checkbox" name="" id="btn" />
@@ -64,13 +69,6 @@ const RonNav = () => {
             </div>
           </li>
 
-          {/* <li><Link >
-            <div className="indicator">
-              <span className="indicator-item mt-5 pl-1">+{cart?.length}</span>
-              <button className=""><CartDrawer /></button>
-            </div>
-          </Link></li> */}
-
 
           {
             user?.uid ? (<>
@@ -84,6 +82,28 @@ const RonNav = () => {
               <li><Link to="/logIn" aria-label="LogIn" title="LogIn">LogIn</Link></li>
             </>)
           }
+
+          {/* dark mode  */}
+
+          <li>
+            <div className="relative md:border-l flex items-center  justify-end w-full md:w-auto pl-5 ">
+              <div className=" w-[50px]">
+                <button
+                  onClick={() => setDarkMode(!darkMode)}
+                  className=" pt-7  flex items-center justify-center"
+                >
+                 <p className=''> {darkMode ? <MdLightMode /> : <MdDarkMode /> }</p>
+                  
+                  {/* <img
+                    className="md:w-full   w-10 object-cover"
+                    src={darkMode ? lightimg : darkimg}
+                    alt=""
+                  /> */}
+                </button>
+              </div>
+            </div>
+          </li>
+
 
         </ul>
       </div>

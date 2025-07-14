@@ -107,7 +107,7 @@ const Product = () => {
 
 
   return (
-    <div className='pt-14'>
+    <div className='pt-14 dark:text-gray-200'>
       <div className="main-products">
         <div className="left-side">
           {/* price range end............ */}
@@ -156,9 +156,9 @@ const Product = () => {
 
           {/* .........search bar start............ */}
           <form >
-            <div className='mt-2 flex p-1 overflow-hidden border rounded-lg    focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300'>
+            <div className='mt-2 flex p-1 overflow-hidden border rounded-lg   focus-within:ring focus-within:ring-opacity-40 focus-within:border-blue-400 focus-within:ring-blue-300'>
               <input
-                className='px-6 py-3 text-gray-700 placeholder-gray-500 bg-white outline-none focus:placeholder-transparent'
+                className='px-6 py-3 text-gray-700 placeholder-gray-200 dark:bg-gray-900 dark:text-gray-200  outline-none focus:placeholder-transparent'
                 type='text'
                 value={query}
                 onChange={(e) => handleSearch(e)}
@@ -190,7 +190,7 @@ const Product = () => {
               value={sort}
               name='sort'
               id='sort'
-              className='w-full border p-4 rounded-md text-gray-700'
+              className='w-full border p-4 rounded-md dark:bg-gray-900 dark:text-gray-200 text-gray-700'
             >
               <option value=''>Sort By Deadline</option>
               <option value='dsc'>Descending Order</option>
@@ -201,7 +201,7 @@ const Product = () => {
 
           <button
             onClick={handleReset}
-            className='btn w-full border bg-info text-[#3749bb]'>
+            className='btn w-full border dark:bg-hoverInfo dark:text-gray-200 dark:hover:bg-info bg-info dark:hover:text-[#3749bb]'>
             Reset
           </button>
         </div>
@@ -213,8 +213,10 @@ const Product = () => {
 
 
           {/* {products?.length} */}
-          <h2 className="text-2xl font-semibold tracking-wide flex justify-center pb-2">Featured Products</h2>
+          <div className='dark:text-gray-200'>
+            <h2 className="text-2xl font-semibold tracking-wide flex justify-center pb-2">Featured Products</h2>
           <p className=" font-semibold tracking-wide flex justify-center  pb-12">Check & Get Your Desired Product!</p>
+          </div>
           <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6'>
 
             {/* {

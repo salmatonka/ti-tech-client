@@ -8,9 +8,11 @@ import { AuthContext } from "../../provider/AuthProvider";
 import { toast } from "react-toastify";
 import axios from 'axios';
 import useCart from "../../hooks/useCart";
+import Specification from "../ProDetailSection/Specification/Specification";
+import Description from "../ProDetailSection/Description";
 const ProductDetails = () => {
     const products = useLoaderData();
-    const { _id,name, details, image, price, status, regular_price, category } = products;
+    const { _id, name, details, image, price, status, regular_price, category } = products;
     const { user } = useContext(AuthContext)
     const navigate = useNavigate();
     const handleProductBooking = event => {
@@ -113,13 +115,18 @@ const ProductDetails = () => {
         }
     }
 
+    const [showDiv, setShowDiv] = useState(false);
+
+    const handleClick = () => {
+        setShowDiv(!showDiv); // toggle div
+    };
 
     return (
 
-        <div>
+        <div className="dark:text-gray-200 ">
 
             <div>
-                <div className="mt-6 mb-8">
+                <div className="pt-6 mb-8">
                     <ul className="flex items-center text-lg">
                         <li><Link to="/" ><FaHome /></Link></li><span className="px-3">|</span>
                         <li><Link to={`/usedMobile/${category}`} >{category}</Link></li><span className="px-3">|</span>
@@ -127,24 +134,24 @@ const ProductDetails = () => {
                     </ul>
                 </div>
                 <div className="details-container">
-                    <div className="details-left border ">
+                    <div className="details-left">
                         <img src={image} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
                     </div>
                     <div className="details-right ">
                         <div className="">
                             <h1 className="lg:text-2xl font-bold text-[#1159AB] sm:text-xl">{name}</h1>
 
-                            <div className='md:flex items-center gap-2 py-4 '>
-                                <div className='text-sm border bg-primary shadow-md rounded-3xl px-1 py-1 mb-2'>
+                            <div className='grid lg:grid-cols-4 grid-cols-2 gap-2 py-4 dark:text-gray-600'>
+                                <div className='lg:pl-4 pl-2 dark:text-gray-600 text-sm border bg-primary shadow-md rounded-3xl px-1 py-1 mb-2'>
                                     <h3>Resale Price: ৳ {price}</h3>
                                 </div>
-                                <div className='text-sm border bg-primary shadow-md rounded-3xl px-1 py-1 mb-2'>
+                                <div className='lg:pl-4 pl-2 text-sm border bg-primary shadow-md rounded-3xl px-1 py-1 mb-2'>
                                     <h3><s>Current Price: ৳{regular_price}</s></h3>
                                 </div>
                                 {/* <div className='text-sm border bg-primary shadow-md rounded-3xl px-1 py-1 mb-2'>
                                     <h3>Resale Price: ৳ {regular_price}</h3>
                                 </div> */}
-                                <div className='text-md '>
+                                <div className='lg:pl-4 pl-2 text-sm border bg-primary shadow-md rounded-3xl px-1 py-1 mb-2'>
                                     <h3>Status: {status}</h3>
                                 </div>
                             </div>
@@ -178,23 +185,22 @@ const ProductDetails = () => {
 
                                     <label htmlFor='booking-modal'
                                         //  style={{ boxShadow: "10px 10px 5px gray", fontSize: "18px" }}
-                                        className="bg-secondary hover: rounded-sm w-52 py-3 flex
+                                        className="bg-secondary hover:bg-info hover:text-secondary rounded-sm w-52 py-3 flex
                                          justify-center items-center text-white mt-3">
                                         Buy Now <FaLongArrowAltRight className='mt-1 ml-3s' /></label>
 
                                     <div
                                         onClick={handleAddToCart}
-                                        className="bg-secondary hover: rounded-sm w-52 flex
+                                        className="bg-secondary  hover:bg-info hover:text-secondary rounded-sm w-52 flex
                                         justify-center items-center  py-3  text-white mt-3"
-                                          >
-                                        <button className="flex 
-                                        items-center gap-4">
-                                        Add To Cart <FaArrowRight /> </button>
+                                    >
+                                        <button className="flex items-center gap-4">
+                                            Add To Cart <FaArrowRight /> </button>
 
                                     </div>
                                     <div>
                                         <Link
-                                            className="bg-secondary hover: rounded-sm w-52 flex 
+                                            className="bg-secondary hover:bg-info hover:text-secondary rounded-sm w-52 flex 
                                         justify-center items-center  py-3  text-white mt-3"
                                         ><button
                                             onClick={() => handleWishList(products)}
@@ -251,47 +257,89 @@ const ProductDetails = () => {
                     </div>
                 </div>
             </div>
+            {/* reviews section  */}
+            <div className="pt-20">
+                <div className="details-container2">
 
-            <div className="review bg-white shadow-lg p-6 flex items-center justify-center">
-                <div className="flex flex-col max-w-xl p-8 shadow-sm rounded-xl lg:p-12 dark:bg-gray-50 dark:text-gray-800">
-                    <div className="flex flex-col items-center w-full">
-                        <h2 className="text-3xl font-semibold text-center">Your opinion matters!</h2>
-                        <div className="flex flex-col items-center py-6 space-y-3">
-                            <span className="text-center">How was your experience?</span>
-                            <div className="flex space-x-3">
-                                <div className="rating">
-                                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="1 star" />
-                                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="2 star" defaultChecked />
-                                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="3 star" />
-                                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="4 star" />
-                                    <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                    <div className="dark:bg-gray-900 review flex items-center justify-center">
+                        <div className="bg-dashInfo flex flex-col max-w-xl p-8 shadow-md rounded-xl lg:p-12 dark:bg-[#1a2641d5] dark:text-gray-200">
+                            <div className=" flex flex-col items-center w-full">
+                                <h2 className="text-3xl font-semibold text-center">Your opinion matters!</h2>
+                                <div className="flex flex-col items-center py-6 space-y-3">
+                                    <span className="text-center">How was your experience?</span>
+                                    <div className="flex space-x-3">
+                                        <div className="rating">
+                                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="2 star" defaultChecked />
+                                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="3 star" />
+                                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="4 star" />
+                                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col w-full">
+                                    <textarea rows="3" placeholder="Message..."
+                                        className="p-4 rounded-md resize-none text-gray-800 border border-gray-50"></textarea>
+                                    <button type="button" className="py-4 my-8 font-semibold rounded-md text-gray-50 hover:text-gray-600 hover:bg-primary bg-secondary dark:hover:bg-info dark:hover:text-secondary">Leave feedback</button>
                                 </div>
                             </div>
-                        </div>
-                        <div className="flex flex-col w-full">
-                            <textarea rows="3" placeholder="Message..."
-                                className="p-4 rounded-md resize-none text-gray-800 border border-gray-50"></textarea>
-                            <button type="button" className="py-4 my-8 font-semibold
-             rounded-md hover:text-gray-50 bg-info hover:bg-secondary">Leave feedback</button>
+                            <div className="flex items-center justify-center">
+                                <a rel="noopener noreferrer" href="#" className="dark:text-gray-600">Maybe later</a>
+                            </div>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center">
-                        <a rel="noopener noreferrer" href="#" className=" text-sm
-         dark:text-gray-600">Maybe later</a>
+                    <div className="pt-2">
+                        <div className="dark:bg-gray-600 dark:text-gray-200  shadow-lg rounded-md bg-dashInfo">
+                            <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-2 ">
+                                {/* Specification */}
+                                <li className="flex items-center justify-center w-full  h-12 bg-info dark:bg-[#1a2641d5]">
+                                    <button onClick={handleClick}>
+                                        {showDiv ? 'Specification' : 'Specification'}
+                                    </button>
+                                </li>
+
+                                <li className=" flex items-center justify-center  w-full h-12 bg-info   dark:bg-[#1a2641d5]">
+                                   <button onClick={handleClick}>
+                                        {showDiv ? 'Description' : 'Description'}
+                                    </button>
+                                    </li>
+                                <li className="flex items-center justify-center  w-full h-12 bg-info  dark:bg-[#1a2641d5]"><Link>Questions (0)</Link></li>
+                                <li className=" flex items-center justify-center  w-full h-12 bg-info dark:bg-[#1a2641d5]"><Link>Reviews (0)</Link></li>
+                            </ul>
+                        </div>
+                        <div>
+                            {/* Specification */}
+                            {showDiv ? (
+                                <div className="dark:bg-gray-600 bg-primary" style={{ marginTop: '20px', padding: '10px', }}>
+                                     <Specification />
+                                    {/* <Description /> */}
+
+                                </div>
+                            ) : (
+                                 <div className="dark:bg-gray-600 bg-primary" style={{ marginTop: '20px', padding: '10px', }}>
+                                    <Specification />
+                                </div>
+                            )
+                            }
+                        </div>
+
+                        <div>
+                            {/* Description */}
+                            {showDiv && (
+                                <div className="dark:bg-gray-600 bg-primary" style={{ marginTop: '20px', padding: '10px', }}>
+                                
+                                    <Description />
+
+                                </div>
+                            )
+                            }
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div className="pt-16 pb-8">
-                <div className="bg-primary shadow-sm border sm:py-4">
-                    <ul className="lg:flex items-center gap-6 block">
-                        <li className="py-2"><Link>Specification</Link></li>
-                        <li className="py-2"><Link>Description</Link></li>
-                        <li className="py-2"><Link>Questions (0)</Link></li>
-                        <li className="py-2"><Link>Reviews (0)</Link></li>
-                    </ul>
-                </div>
-            </div>
+
+
         </div>
     )
 }

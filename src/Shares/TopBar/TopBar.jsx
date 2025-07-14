@@ -6,7 +6,7 @@ import { MdOutlineLocalPhone, MdMailOutline } from "react-icons/md";
 const TopBar = () => {
   return (
 
-    <div className='lg:flex hidden py-2 px-10 bg-[#DFE7F6] text-[#000]'>
+    <div className='lg:flex hidden py-2 px-10 dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md bg-[#DFE7F6] text-[#000]'>
       <div className='top-container'>
         <div className='flex gap-4'>
           <a className='flex items-center gap-2' href="+880 1912345678"><BsTelephone />+880 1912345678 </a>

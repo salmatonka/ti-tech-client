@@ -11,14 +11,14 @@ const Offers = () => {
 
   return (
     <div className='pt-12 pb-20'>
-      <div className="comming flex justify-center items-center text-xl pb-3 font-serif">
-        <h1>
+      <div className="comming dark:text-gray-200 flex justify-center items-center text-xl pb-3 font-serif">
+        <h1 className='pb-5'>
           Comming Soon Update......
         </h1>
       </div>
       {/* <ProductLeftSide /> */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 '>
-        <div className="card bg-white w-96 mx-auto shadow-lg">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md  card bg-gray-200 w-96 mx-auto shadow-lg">
           <figure className="p-4">
             <img
               src={tvLogo}
@@ -39,7 +39,7 @@ const Offers = () => {
             </Link>
           </div>
         </div>
-        <div className="card bg-white w-96 shadow-lg">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md  card bg-gray-200 w-96 mx-auto shadow-lg">
           <figure className="p-4">
             <img
               src={lapLogo}
@@ -60,7 +60,7 @@ const Offers = () => {
             </Link>
           </div>
         </div>
-        <div className="card bg-white w-96 shadow-lg">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md  card bg-gray-200 w-96 mx-auto shadow-lg">
           <figure className="p-4">
             <img
               src={acLogo}
@@ -81,7 +81,7 @@ const Offers = () => {
             </Link>
           </div>
         </div>
-        <div className="card bg-white w-96 shadow-lg">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md  card bg-gray-200 w-96 mx-auto shadow-lg">
           <figure className="p-4">
             <img
               src={routerLogo}
@@ -100,7 +100,7 @@ const Offers = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-white w-96 shadow-lg">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md  card bg-gray-200 w-96 mx-auto shadow-lg">
           <figure className="p-4">
             <img
               src={megaLogo}
@@ -121,7 +121,7 @@ const Offers = () => {
             </Link>
           </div>
         </div>
-        <div className="card bg-white w-96 shadow-lg">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md  card bg-gray-200 w-96 mx-auto shadow-lg">
           <figure className="p-4">
             <img
               src={pantumLogo}

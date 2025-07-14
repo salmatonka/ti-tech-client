@@ -4,7 +4,7 @@ import DashboardHome from '../DashboardHome/DashboardHome'
 const UserProfile = () => {
   return (
     <div>
-      {/* <DashboardHome /> */}
+      <DashboardHome />
       
     </div>
   )

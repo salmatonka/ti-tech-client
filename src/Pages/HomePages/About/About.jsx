@@ -39,7 +39,7 @@ const About = () => {
 	</div>
 </section> */}
 
-			<section className="pb-16 pt-32 dark:bg-gray-100 dark:text-gray-900">
+			<section className="pb-16 pt-32 dark:bg-[#1a2641d5] dark:text-gray-200">
 				<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 					<div className="py-6 md:py-0 md:px-6">
 						<h1 className="text-2xl font-bold">Get in touch with</h1>
@@ -80,7 +80,7 @@ const About = () => {
 							<span className="mb-1">Message</span>
 							<textarea rows="3" className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-gray-100"></textarea>
 						</label>
-						<button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-slate-300 w-full focus:ring-violet-600 hover:ring-violet-600">Submit</button>
+						<button type="button" className="dark:text-gray-600  self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-slate-300 w-full focus:ring-violet-600 hover:ring-violet-600">Submit</button>
 					</form>
 				</div>
 			</section>

@@ -54,7 +54,7 @@ const ProductCard = ({ product }) => {
 
     return (
 
-        <div className="card card-compact shadow-xl w-82  border cardBody">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md bg-gray-200 card card-compact shadow-xl w-82  border cardBody">
 
             <figure className="imgBody shadow-sm">
                 <Link to={`/product/${_id}`}>
@@ -82,7 +82,7 @@ const ProductCard = ({ product }) => {
                 <div >
                     <button
                         onClick={handleAddToCart}
-                        className='flex items-center justify-center py-2 gap-4 w-full font-semibold bg-info hover:bg-hoverInfo hover:text-white border rounded-md text-[#3749bb]'>
+                        className='flex items-center justify-center py-2 gap-4 w-full font-semibold hover:bg-primary bg-hoverInfo text-white rounded-md hover:text-[#3749bb]'>
                        Add To Cart <FaArrowRight />
                     </button>
                 </div>

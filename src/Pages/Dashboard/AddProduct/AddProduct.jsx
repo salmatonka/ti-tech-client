@@ -66,7 +66,7 @@ const AddProduct = () => {
 
 
     return (
-        <div className=' shadow-md py-10 lg:px-14'>
+        <div className='dark:bg-[#0F172A] dark:text-white lg:m-4 bg-primary shadow-md py-10 lg:px-14'>
             <div className='flex justify-center mb-12 mt-5'>
                 <div className='shadow-xl p-10 border border-2'>
                     <h3 className='text-2xl text-bold text-center'>Please Add Product</h3>
@@ -75,31 +75,31 @@ const AddProduct = () => {
                             {/* left side  */}
                             <div className='md:w-1/2 '>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">BrandName</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">BrandName</span></label>
                                     <input name='brandName' type='text' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Picture</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Picture</span></label>
                                     <input name='img' type='text' className="file-input file-input-bordered file-input-info w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">SellerName</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">SellerName</span></label>
                                     <input disabled defaultValue={user?.displayName} name='sellerName' type='text' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Location</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Location</span></label>
                                     <input name='location' type='text' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Date</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Date</span></label>
                                     <input name='date' type='date' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Model</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Model</span></label>
                                     <input name='model' type='text' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Category</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Category</span></label>
                                     <select required name='category' className="select select-bordered w-full">
                                         <option value='processor'>Processor</option>
                                         <option value='matherboard'>MMatherboard</option>
@@ -117,23 +117,23 @@ const AddProduct = () => {
                             {/* Right side  */}
                             <div className='md:w-1/2'>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Price</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Price</span></label>
                                     <input name='price' type='text' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Regular Price</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Regular Price</span></label>
                                     <input name='regular_price' type='text' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Email</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Email</span></label>
                                     <input disabled defaultValue={user?.email} name='email' type='email' className="input input-bordered w-full" />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Years of Use</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Years of Use</span></label>
                                     <input name='yearUsed' type='text' className="input input-bordered w-full" required />
                                 </div>
                                 <div className="form-control w-full">
-                                    <label className="label"> <span className="label-text">Details</span></label>
+                                    <label className="label"> <span className=" label-text dark:text-white">Details</span></label>
                                     <textarea name='details' type='text' className="input input-bordered w-full h-32" required />
                                 </div>
 

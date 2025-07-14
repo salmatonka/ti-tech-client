@@ -14,10 +14,10 @@ const Supports = () => {
             <div className='py-8'>
                 <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3 shadow-xl'>
 
-                    <li className='border flex items-center justify-center bg-gray-200 py-4'>
+                    <li className='dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md flex items-center justify-center  bg-gray-200 py-4'>
                         <Link className='flex items-center justify-center gap-4'>
                         <div className=''>
-                            <MdMonitor className='border border-gray-500 bg-secondary text-gray-200 w-12 h-12 p-2 rounded-full' />
+                            <MdMonitor className=' border border-gray-500 bg-secondary text-gray-200 w-12 h-12 p-2 rounded-full' />
                         </div>
                             <div>
                                 <h2 className='font-semibold'>Monitor Filter</h2>
@@ -25,7 +25,7 @@ const Supports = () => {
                             </div>
                         </Link>
                     </li>
-                    <li className='border flex items-center justify-center bg-gray-200  py-4'>
+                    <li className='dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md flex items-center justify-center  bg-gray-200 py-4'>
                         <Link className='flex items-center justify-center gap-4'>
                         <div className=''>
                             <MdOutlineFeedback className='border border-gray-500 bg-secondary text-gray-200 w-12 h-12 p-2 rounded-full' />
@@ -36,7 +36,7 @@ const Supports = () => {
                             </div>
                         </Link>
                     </li>
-                    <li className='border flex items-center justify-center bg-gray-200 py-4'>
+                    <li className='dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md flex items-center justify-center  bg-gray-200 py-4'>
                         <Link className='flex items-center justify-center gap-4'>
                         <div className=''>
                             <IoIosHome className='border border-gray-500 bg-secondary text-gray-200 w-12 h-12 p-2 rounded-full' />
@@ -47,7 +47,7 @@ const Supports = () => {
                             </div>
                         </Link>
                     </li>
-                    <li className='border flex items-center justify-center bg-gray-200 py-4'>
+                    <li className='dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md flex items-center justify-center  bg-gray-200 py-4'>
                         <Link className='flex items-center justify-center gap-4'>
                         <div className=''>
                             <CiSettings className='border border-gray-500 bg-secondary text-gray-200 w-12 h-12 p-2 rounded-full' />
@@ -58,7 +58,7 @@ const Supports = () => {
                             </div>
                         </Link>
                     </li>
-                    <li className='border flex items-center justify-center bg-gray-200 py-4'>
+                    <li className='dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md flex items-center justify-center  bg-gray-200 py-4'>
                         <Link className='flex items-center justify-center gap-4'>
                         <div className=''>
                             <FaCarAlt className='border border-gray-500 bg-secondary text-gray-200 w-12 h-12 p-2 rounded-full' />

@@ -41,8 +41,8 @@ const MyProduct = () => {
       
         }
   return (
-    <div className="p-4 mx-auto">
-      <div className=' bg-bg-primary shadow-md py-10 '>
+    <div className="">
+      <div className='bg-primary shadow-md py-10 dark:bg-[#0F172A]  dark:text-white text-gray-600 lg:m-4 '>
         {/* <h2>product:{myProducts.length}</h2> */}
         <h3 className='text-2xl text-bold pb-6 text-center'>My Product</h3>
         <div className="overflow-x-auto  ">
@@ -62,7 +62,7 @@ const MyProduct = () => {
             <tbody >
               {
                 myProducts?.map((myProduct,i) => 
-                   <tr className="hover">
+                   <tr className=" dark:hover:text-gray-600 hover:bg-info">
                               <td></td>
                             <td>
                               <div className="avatar">

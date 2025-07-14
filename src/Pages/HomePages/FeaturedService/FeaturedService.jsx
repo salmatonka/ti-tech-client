@@ -34,13 +34,13 @@ const FeaturedService = () => {
         }
     ]
     return (
-        <div className='pt-10 pb-6'>
+        <div className='pt-10 pb-6 dark:text-gray-200 dark:bg-gradient-to-r dark:from-[#0F172A] dark:from-10% dark:via-[#0F172A] dark:via-30% dark:to-[#0F172A]'>
             <h2 className="text-xl font-semibold tracking-wide flex justify-center pb-2">Featured Services</h2>
             <p className=" font-semibold tracking-wide flex justify-center  pb-10">Get your Tech product repair services from Experts !</p>
             <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 lg:gap-6 gap-4'>
                 {
                     featuredServices?.map((featuredService, index) => (
-                        <div className="sbg-base-100 w-full mx-auto border shadow-xl">
+                        <div className=" shadow-md w-full mx-auto dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md">
                                <div className='flex justify-center items-center'>
                                  <img
                                         src={featuredService?.img}
