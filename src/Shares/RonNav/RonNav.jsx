@@ -54,6 +54,20 @@ const RonNav = ({ setDarkMode, darkMode }) => {
 
         <ul>
           <li><Link to="/">Home</Link></li>
+           <li>
+                        <label htmlFor="btn-1" className='show'>Categories +</label>
+                        <a href="">Categories</a>
+                        <input type="checkbox" name="" id="btn-1" />
+
+                        <ul>
+                            <li><a href='/products/Processor'>Processor</a></li>
+                            <li><a href='/products/Monitor'>Monitoro</a></li>
+                            <li><a href='/products/Motherboard'>Motherboard</a></li>
+                            <li><a href='/products/Accessories'>Accessories</a></li>
+                            <li><a href='/products/Router'>Router</a></li>
+                            <li><a href='/products/Casing'>Casing</a></li>
+                        </ul>
+                    </li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/offers" aria-label="offers" title="offers">Offers</Link></li>
           <li><Link to="/teams" aria-label="teams" title="teams">Teams</Link></li>

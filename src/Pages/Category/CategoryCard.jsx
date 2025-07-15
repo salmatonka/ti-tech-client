@@ -23,10 +23,10 @@ const CategoryCard = () => {
     // console.log(categoryProducts);
 
     return (
-        <div className='px-2 py-28 '>
+        <div className='px-2 py-28 dark:bg-[#0F172A]  dark:text-white'>
             <div className='cp-main-side pb-6'>
                 {/* Category */}
-                <div className="left-side border ">
+                <div className="left-side">
                     <div>
                         <select
                             onChange={e => {
@@ -36,7 +36,7 @@ const CategoryCard = () => {
                             // value={filter}
                             name='category'
                             id='category'
-                            className='border p-4 max-w-xs w-full rounded-lg'
+                            className='border dark:bg-[#0F172A] p-4 max-w-xs w-full rounded-lg'
                         >
                             <option value=''>Filter By Category</option>
                             <option value='processor'>Processor</option>
@@ -45,7 +45,7 @@ const CategoryCard = () => {
                         </select>
                     </div>
 
-                    <select className="select select-bordered w-full max-w-xs">
+                    <select className="select select-bordered dark:bg-[#0F172A] border w-full max-w-xs">
                         <option disabled selected>Who shot first?</option>
                         <option>Han Solo</option>
                         <option>Greedo</option>
