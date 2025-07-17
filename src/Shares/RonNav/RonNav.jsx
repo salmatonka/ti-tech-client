@@ -12,11 +12,13 @@ import { useQuery } from '@tanstack/react-query';
 import { toast } from 'react-toastify';
 import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
+import useAdmin from '../../hooks/useAdmin';
 // import darkimg from "../../assets/dark-mode/dark.png";
 // import lightimg from "../../assets/dark-mode/light.png";
 
 const RonNav = ({ setDarkMode, darkMode }) => {
   const { user, logout } = useContext(AuthContext);
+  const [isAdmin] = useAdmin()
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -53,21 +55,23 @@ const RonNav = ({ setDarkMode, darkMode }) => {
         <input type="checkbox" name="" id="btn" />
 
         <ul>
-          <li><Link to="/">Home</Link></li>
-           <li>
-                        <label htmlFor="btn-1" className='show'>Categories +</label>
-                        <a href="">Categories</a>
-                        <input type="checkbox" name="" id="btn-1" />
 
-                        <ul>
-                            <li><a href='/products/Processor'>Processor</a></li>
-                            <li><a href='/products/Monitor'>Monitoro</a></li>
-                            <li><a href='/products/Motherboard'>Motherboard</a></li>
-                            <li><a href='/products/Accessories'>Accessories</a></li>
-                            <li><a href='/products/Router'>Router</a></li>
-                            <li><a href='/products/Casing'>Casing</a></li>
-                        </ul>
-                    </li>
+
+          <li><Link to="/">Home</Link></li>
+          <li>
+            <label htmlFor="btn-1" className='show'>Categories +</label>
+            <a href="">Categories</a>
+            <input type="checkbox" name="" id="btn-1" />
+
+            <ul>
+              <li><a href='/products/Processor'>Processor</a></li>
+              <li><a href='/products/Monitor'>Monitoro</a></li>
+              <li><a href='/products/Motherboard'>Motherboard</a></li>
+              <li><a href='/products/Accessories'>Accessories</a></li>
+              <li><a href='/products/Router'>Router</a></li>
+              <li><a href='/products/Casing'>Casing</a></li>
+            </ul>
+          </li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/offers" aria-label="offers" title="offers">Offers</Link></li>
           <li><Link to="/teams" aria-label="teams" title="teams">Teams</Link></li>
@@ -75,6 +79,7 @@ const RonNav = ({ setDarkMode, darkMode }) => {
           {/* <li><Link to="/contactUs" aria-label="ContactUs" title="ContactUs">ContactUs</Link></li> */}
           {/* <li><Link to="/logIn" aria-label="LogIn" title="LogIn">LogIn</Link></li> */}
 
+          {/* shopping cart  */}
 
           <li>
             <div className="indicator">
@@ -83,12 +88,27 @@ const RonNav = ({ setDarkMode, darkMode }) => {
             </div>
           </li>
 
+          {/* dashboar condition  */}
+
+          {/* // user ? 'true' : 'false'
+          // user ? condition ? 'double true' : 'one true' : 'false' */}
+          {
+            user && isAdmin &&
+            <li>
+              <Link to="/dashboard/adminHome" aria-label="Dashboard" title="Dashboard">Dashboard</Link>
+            </li>
+          }
+          {
+            user && !isAdmin &&
+            <li>
+              <Link to="/dashboard/userHome" aria-label="Dashboard" title="Dashboard">Dashboard</Link>
+            </li>
+
+          }
 
           {
             user?.uid ? (<>
-              <li>
-                <Link to="/dashboard" aria-label="Dashboard" title="Dashboard">Dashboard</Link>
-              </li>
+
               <li>
                 <button className='pt-6' onClick={handleLogout} aria-label="LogOut" title="LogOut"> LogOut</button>
               </li>
@@ -106,8 +126,8 @@ const RonNav = ({ setDarkMode, darkMode }) => {
                   onClick={() => setDarkMode(!darkMode)}
                   className=" pt-7  flex items-center justify-center"
                 >
-                 <p className=''> {darkMode ? <MdLightMode /> : <MdDarkMode /> }</p>
-                  
+                  <p className=''> {darkMode ? <MdLightMode /> : <MdDarkMode />}</p>
+
                   {/* <img
                     className="md:w-full   w-10 object-cover"
                     src={darkMode ? lightimg : darkimg}

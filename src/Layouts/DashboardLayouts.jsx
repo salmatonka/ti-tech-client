@@ -66,14 +66,15 @@ const navigate = useNavigate();
 
                     {currentUser.role === "admin" ? (
                         <>
+                         <li>
+                                {" "}
+                                <Link to="/dashboard/adminHome">Admin Home</Link>{" "}
+                            </li>
                             <li>
                                 {" "}
                                 <Link to="/">Back Home</Link>{" "}
                             </li>
-                            <li>
-                                {" "}
-                                <Link to="/dashboard/userProfile">Profile</Link>{" "}
-                            </li>
+                           
                             <li>
                                 {" "}
                                 <Link to="/dashboard/allBuyers">All Buyers</Link>{" "}

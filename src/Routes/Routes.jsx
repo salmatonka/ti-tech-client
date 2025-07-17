@@ -88,8 +88,9 @@ export const router = createBrowserRouter([
             <DashboardLayouts />
         </PrivateRoute>,
         children: [
+            //normal users
             {
-                index: true,
+                path: 'userHome',
                 element: <DashboardHome />
             },
             {
@@ -125,6 +126,10 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/dashboard/profile",
+                element: <UserProfile />
+            },
+            {
+                path: "/dashboard/adminHome",
                 element: <UserProfile />
             },
 

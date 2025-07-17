@@ -5,14 +5,14 @@ const useSeller = email => {
     const [sellerLoading, setSellerLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`https://ti-server-585b.onrender.com/users/seller/${email}`)
+        fetch(`https://ti-server-585b.onrender.com/users/seller/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
                 setIsSeller(data.isSeller);
                 setSellerLoading(false);
             })
-    }, [email]);
+    }, [user?.email]);
     return [isSeller, sellerLoading];
 }
 
