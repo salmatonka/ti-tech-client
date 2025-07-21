@@ -29,7 +29,7 @@ const Carts = () => {
     }
     return (
     <div>
-       <div className='py-16'>
+       <div className='py-16 dark:text-white'>
             <div className="flex justify-evenly mb-8">
                 <h2 className="text-xl">Items: {cart?.length}</h2>
                 <h2 className="text-xl">Total Price: {cart?.totalPrice}</h2>

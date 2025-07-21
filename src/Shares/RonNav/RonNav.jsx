@@ -58,12 +58,12 @@ const RonNav = ({ setDarkMode, darkMode }) => {
 
 
           <li><Link to="/">Home</Link></li>
-          <li>
-            <label htmlFor="btn-1" className='show'>Categories +</label>
+          <li >
+            <label htmlFor="btn-1" className='show dark:bg-[#120505]'>Categories +</label>
             <a href="">Categories</a>
             <input type="checkbox" name="" id="btn-1" />
 
-            <ul>
+            <ul className='dark:bg-[#120505]'>
               <li><a href='/products/Processor'>Processor</a></li>
               <li><a href='/products/Monitor'>Monitoro</a></li>
               <li><a href='/products/Motherboard'>Motherboard</a></li>
@@ -120,7 +120,7 @@ const RonNav = ({ setDarkMode, darkMode }) => {
           {/* dark mode  */}
 
           <li>
-            <div className="relative md:border-l flex items-center  justify-end w-full md:w-auto pl-5 ">
+            <div className="relative flex items-center  justify-end w-full md:w-auto pl-5 ">
               <div className=" w-[50px]">
                 <button
                   onClick={() => setDarkMode(!darkMode)}

@@ -17,7 +17,7 @@ const HomeProducts = () => {
   const [products] = useProducts()
   const monitor = products?.filter(item => item?.category === 'Monitor')
   const processor = products?.filter(item => item?.category === 'Processor')
-  const motherboard = products?.filter(item => item?.category === 'Motherboard')
+  const accessories = products?.filter(item => item?.category === 'Accessories')
   // console.log(monitor)
   return (
     <div className='py-10'>
@@ -41,10 +41,10 @@ const HomeProducts = () => {
 
       </div>
       <div>
-         <h2 className="text-2xl dark:text-gray-200 font-semibold tracking-wide flex justify-center pb-10">Motherboard</h2>
+         <h2 className="text-2xl dark:text-gray-200 font-semibold tracking-wide flex justify-center pb-10">Accessories</h2>
            <div className='grid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1 gap-6'>
           {
-            motherboard?.slice(0, 10).map((product,i) => <ProductCard
+            accessories?.slice(0, 10).map((product,i) => <ProductCard
               key={product?._id} product={product} />)
           }
         </div>

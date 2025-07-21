@@ -23,9 +23,9 @@ const DashboardHome = () => {
   return (
     <div >
     
+<DashboardNav />
 
-
-      <div className=' dark:bg-[#0F172A] dark:text-white bg-primary shadow-sm p-4 lg:m-4 lg:px-8 px-2'>
+      <div className=' dark:bg-[#0F172A] dark:text-white bg-white shadow-lg p-4 lg:m-4 lg:px-8 px-2'>
         <div className='flex items-center gap-4 py-8'>
           <div className="avatar">
             <div className="ring-primary ring-offset-base-100 w-20 rounded-full ring-2 ring-offset-2">

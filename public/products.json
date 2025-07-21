@@ -228,7 +228,8 @@
         "sunMenu": "",
         "price": 3900,
         "regular_price": 4000,
-        "status": "In Stock"
+        "status": "In Stock",
+        "rating": 4.5
     },
     {
         "name": "Hi-POWER-22-INCH-BORDERLESS-LED-IPS-MONITOR",
@@ -283,7 +284,8 @@
         "sunMenu": "",
         "price": 11000,
         "regular_price": 11500,
-        "status": "In Stock"
+        "status": "In Stock",
+        "rating": 3.4
     },
     {
         "name": "New-PCV-22-Inch-Bordarless-Monitor",
@@ -417,7 +419,9 @@
         "sunMenu": "",
         "price": 2700,
         "regular_price": 3100,
-        "status": "In Stock"
+        "status": "In Stock",
+        "rating": 4
+        
     },
     {
         "name": "Intel 10th Gen Core i5-10400 Processor",

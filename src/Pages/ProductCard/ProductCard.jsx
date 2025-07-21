@@ -54,7 +54,7 @@ const ProductCard = ({ product }) => {
 
     return (
 
-        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md bg-gray-200 card card-compact shadow-xl w-82  border cardBody">
+        <div className="dark:bg-[#1a2641d5] dark:text-gray-200 drak:shadow-md bg-gray-200 card card-compact shadow-xl w-82 mx-auto  border cardBody">
 
             <figure className="imgBody shadow-sm">
                 <Link to={`/product/${_id}`}>

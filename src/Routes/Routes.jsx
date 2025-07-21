@@ -27,6 +27,7 @@ import SellerRoute from "./SellerRoute";
 import Blog from "../Pages/Blog/Blog";
 import Teams from "../Pages/Teams/Teams";
 import EditProduct from "../Pages/Dashboard/EditProduct/EditProduct";
+import AdminHome from "../Pages/Dashboard/AdminDashboard/AdminHome";
 
 export const router = createBrowserRouter([
     {
@@ -130,7 +131,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/dashboard/adminHome",
-                element: <UserProfile />
+                element: <AdminHome />
             },
 
             {

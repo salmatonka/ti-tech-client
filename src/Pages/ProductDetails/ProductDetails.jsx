@@ -10,8 +10,10 @@ import axios from 'axios';
 import useCart from "../../hooks/useCart";
 import Specification from "../ProDetailSection/Specification/Specification";
 import Description from "../ProDetailSection/Description";
+import ProductSilder from "./ProductSilder";
 const ProductDetails = () => {
     const products = useLoaderData();
+    console.log(products)
     const { _id, name, details, image, price, status, regular_price, category } = products;
     const { user } = useContext(AuthContext)
     const navigate = useNavigate();
@@ -124,6 +126,8 @@ const ProductDetails = () => {
     return (
 
         <div className="dark:text-gray-200 ">
+{/* <ProductSilder /> */}
+
 
             <div>
                 <div className="pt-6 mb-8">
@@ -135,6 +139,7 @@ const ProductDetails = () => {
                 </div>
                 <div className="details-container">
                     <div className="details-left">
+                        
                         <img src={image} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
                     </div>
                     <div className="details-right ">
@@ -257,6 +262,7 @@ const ProductDetails = () => {
                     </div>
                 </div>
             </div>
+
             {/* reviews section  */}
             <div className="pt-20">
                 <div className="details-container2">
@@ -299,10 +305,10 @@ const ProductDetails = () => {
                                 </li>
 
                                 <li className=" flex items-center justify-center  w-full h-12 bg-info   dark:bg-[#1a2641d5]">
-                                   <button onClick={handleClick}>
+                                    <button onClick={handleClick}>
                                         {showDiv ? 'Description' : 'Description'}
                                     </button>
-                                    </li>
+                                </li>
                                 <li className="flex items-center justify-center  w-full h-12 bg-info  dark:bg-[#1a2641d5]"><Link>Questions (0)</Link></li>
                                 <li className=" flex items-center justify-center  w-full h-12 bg-info dark:bg-[#1a2641d5]"><Link>Reviews (0)</Link></li>
                             </ul>
@@ -311,12 +317,12 @@ const ProductDetails = () => {
                             {/* Specification */}
                             {showDiv ? (
                                 <div className="dark:bg-gray-600 bg-primary" style={{ marginTop: '20px', padding: '10px', }}>
-                                     <Specification />
+                                    <Specification />
                                     {/* <Description /> */}
 
                                 </div>
                             ) : (
-                                 <div className="dark:bg-gray-600 bg-primary" style={{ marginTop: '20px', padding: '10px', }}>
+                                <div className="dark:bg-gray-600 bg-primary" style={{ marginTop: '20px', padding: '10px', }}>
                                     <Specification />
                                 </div>
                             )
@@ -327,7 +333,7 @@ const ProductDetails = () => {
                             {/* Description */}
                             {showDiv && (
                                 <div className="dark:bg-gray-600 bg-primary" style={{ marginTop: '20px', padding: '10px', }}>
-                                
+
                                     <Description />
 
                                 </div>

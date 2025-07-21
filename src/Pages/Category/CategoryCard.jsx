@@ -16,6 +16,8 @@ import accessoriesImg from '../../assets/icon/mouse.png';
 import routerImg from '../../assets/icon/wifi-router.png';
 import upsImg from '../../assets/icon/ppp01.png';
 import ProductCard from '../ProductCard/ProductCard';
+import { FaHome } from 'react-icons/fa';
+import { MdOutlineDashboard } from 'react-icons/md';
 
 
 const CategoryCard = () => {
@@ -23,42 +25,22 @@ const CategoryCard = () => {
     // console.log(categoryProducts);
 
     return (
-        <div className='px-2 py-28 dark:bg-[#0F172A]  dark:text-white'>
-            <div className='cp-main-side pb-6'>
-                {/* Category */}
-                <div className="left-side">
-                    <div>
-                        <select
-                            onChange={e => {
-                                setFilter(e.target.value)
-                                setCurrentPage(1)
-                            }}
-                            // value={filter}
-                            name='category'
-                            id='category'
-                            className='border dark:bg-[#0F172A] p-4 max-w-xs w-full rounded-lg'
-                        >
-                            <option value=''>Filter By Category</option>
-                            <option value='processor'>Processor</option>
-                            <option value='monitor'>Monitor</option>
-                            <option value='motherboard'>Motherboard</option>
-                        </select>
+        <div className='px-2 pt-10 dark:bg-[#0F172A]  dark:text-white'>
+            <div className=' '>
+                <h2 className="text-2xl dark:text-gray-200 font-semibold tracking-wide flex justify-center pb-4">Category Products</h2>
+               
+                <div className='grid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-1 gap-6 pt-8'>
+                        {/* {categoryProducts.map(categoryProduct => <SingleCard
+                            key={categoryProduct}
+                            categoryProduct={categoryProduct} />)} */}
+                        {
+                            products?.slice(0, 12).map(product => <ProductCard
+                                key={product?._id} product={product} />)
+                        }
                     </div>
 
-                    <select className="select select-bordered dark:bg-[#0F172A] border w-full max-w-xs">
-                        <option disabled selected>Who shot first?</option>
-                        <option>Han Solo</option>
-                        <option>Greedo</option>
-                    </select>
-
-
-
-
-                </div>
-
                 {/* CategoryCards.... */}
-                <div className="right-side border">
-
+                {/* <div className="">
                     <div className='pb-10' >
                         <div className='flex flex-wrap gap-2' >
 
@@ -73,18 +55,8 @@ const CategoryCard = () => {
 
                         </div>
                     </div>
+                </div> */}
 
-                    <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10'>
-                        {/* {categoryProducts.map(categoryProduct => <SingleCard
-                            key={categoryProduct}
-                            categoryProduct={categoryProduct} />)} */}
-                        {
-                            products?.slice(0, 12).map(product => <ProductCard
-                                key={product?._id} product={product} />)
-                        }
-                    </div>
-
-                </div>
             </div>
         </div>
     );
